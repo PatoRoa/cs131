@@ -1,0 +1,131 @@
+    1  passwd
+    2  wget www.github.com
+    3  ls
+    4  mkdir patriciogonzalez
+    5  ls
+    6  cd patriciogonzalez
+    7  ls
+    8  git init cs131
+    9  ls
+   10  cd cs131
+   11  mkdir ws1
+   12  ls
+   13  cd ws1
+   14  history
+   15  cmds.log
+   16  >cmds.log
+   17  ls
+   18  git status
+   19  pwd
+   20  cd patriciogonzalez
+   21  cd
+   22  ls
+   23  pwd
+   24  cd patriciogonzalez
+   25  git status
+   26  ls
+   27  cs131
+   28  cd cs131
+   29  git status
+   30  ls
+   31  cd
+   32  ls
+   33  rmdir patriciogonzalez
+   34  cd patricioogonzalez
+   35  cd patriciogonzalez
+   36  ls
+   37  cd cs131
+   38  ls
+   39  cd ws1
+   40  ls
+   41  rm cmds.log
+   42  ls
+   43  cd
+   44  ls
+   45  rmdir patriciogonzalez
+   46  rm patriciogonzalez
+   47  cd patriciogonzalez
+   48  ls
+   49  rmdir cs131
+   50  cd cs131
+   51  ls
+   52  rmdir ws1
+   53  ls
+   54  cd
+   55  rmdir ws1
+   56  ls
+   57  cd patriciogonzalez
+   58  ls
+   59  cd cs131
+   60  rmdir ws1
+   61  ls
+   62  cd
+   63  cd patriciogonzalez
+   64  ls
+   65  rmdir cs131
+   66  cd cs131
+   67  rmdir ws1
+   68  ls
+   69  cd
+   70  ls
+   71  cd patriciogonzalez
+   72  ls
+   73  cd cs131
+   74  ls
+   75  cd -
+   76  rmdir cs131
+   77  ls
+   78  cd cs131
+   79  ls
+   80  rm
+   81  cd -
+   82  rmdir cs131
+   83  cd cs131
+   84  ls
+   85  rmdir
+   86  rmdir --help
+   87  cd-
+   88  cd -
+   89  rmdir --ignore-fail-on-non-empty ws1
+   90  cd -
+   91  ls
+   92  cd -
+   93  ls
+   94  cd
+   95  ls
+   96  echo "# cs131" >> README.md
+   97  git init
+   98  git add README.md
+   99  git commit -m "first commit"
+  100  git branch -M main
+  101  git remote add origin git@github.com:PatoRoa/cs131.git
+  102  git push -u origin main
+  103  ls
+  104  pwd
+  105  echo "# cs131" >> README.md
+  106  git init
+  107  git add README.md
+  108  git commit -m "first commit"
+  109  git config -- global user.email "patricio.ilan.gonzalez2001@gmail.com"
+  110  git config --global user.email "patricio.ilan.gonzalez2001@gmail.com"
+  111  git config --global user.name "PatoRoa"
+  112  git commit -m "first commit"
+  113  git branch -M main
+  114  git remote add origin git@github.com:PatoRoa/cs131.git
+  115  git push -u origin main
+  116  git@github.com:PatoRoa/cs131.git
+  117  ls
+  118  rm README.MD
+  119  rm README.md
+  120  rmdir patriciogonzalez/
+  121  git remote add origin git@github.com:PatoRoa/cs131.git
+  122  git remote -v
+  123  git clone https://github.com/PatoRoa/cs131
+  124  l
+  125  ls
+  126  cd cs131
+  127  ls
+  128  mkdir ws1
+  129  ls
+  130  cd ws1
+  131  history > cmds.log
