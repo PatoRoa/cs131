@@ -1,0 +1,385 @@
+    1  passwd
+    2  wget www.github.com
+    3  ls
+    4  mkdir patriciogonzalez
+    5  ls
+    6  cd patriciogonzalez
+    7  ls
+    8  git init cs131
+    9  ls
+   10  cd cs131
+   11  mkdir ws1
+   12  ls
+   13  cd ws1
+   14  history
+   15  cmds.log
+   16  >cmds.log
+   17  ls
+   18  git status
+   19  pwd
+   20  cd patriciogonzalez
+   21  cd
+   22  ls
+   23  pwd
+   24  cd patriciogonzalez
+   25  git status
+   26  ls
+   27  cs131
+   28  cd cs131
+   29  git status
+   30  ls
+   31  cd
+   32  ls
+   33  rmdir patriciogonzalez
+   34  cd patricioogonzalez
+   35  cd patriciogonzalez
+   36  ls
+   37  cd cs131
+   38  ls
+   39  cd ws1
+   40  ls
+   41  rm cmds.log
+   42  ls
+   43  cd
+   44  ls
+   45  rmdir patriciogonzalez
+   46  rm patriciogonzalez
+   47  cd patriciogonzalez
+   48  ls
+   49  rmdir cs131
+   50  cd cs131
+   51  ls
+   52  rmdir ws1
+   53  ls
+   54  cd
+   55  rmdir ws1
+   56  ls
+   57  cd patriciogonzalez
+   58  ls
+   59  cd cs131
+   60  rmdir ws1
+   61  ls
+   62  cd
+   63  cd patriciogonzalez
+   64  ls
+   65  rmdir cs131
+   66  cd cs131
+   67  rmdir ws1
+   68  ls
+   69  cd
+   70  ls
+   71  cd patriciogonzalez
+   72  ls
+   73  cd cs131
+   74  ls
+   75  cd -
+   76  rmdir cs131
+   77  ls
+   78  cd cs131
+   79  ls
+   80  rm
+   81  cd -
+   82  rmdir cs131
+   83  cd cs131
+   84  ls
+   85  rmdir
+   86  rmdir --help
+   87  cd-
+   88  cd -
+   89  rmdir --ignore-fail-on-non-empty ws1
+   90  cd -
+   91  ls
+   92  cd -
+   93  ls
+   94  cd
+   95  ls
+   96  echo "# cs131" >> README.md
+   97  git init
+   98  git add README.md
+   99  git commit -m "first commit"
+  100  git branch -M main
+  101  git remote add origin git@github.com:PatoRoa/cs131.git
+  102  git push -u origin main
+  103  ls
+  104  pwd
+  105  echo "# cs131" >> README.md
+  106  git init
+  107  git add README.md
+  108  git commit -m "first commit"
+  109  git config -- global user.email "patricio.ilan.gonzalez2001@gmail.com"
+  110  git config --global user.email "patricio.ilan.gonzalez2001@gmail.com"
+  111  git config --global user.name "PatoRoa"
+  112  git commit -m "first commit"
+  113  git branch -M main
+  114  git remote add origin git@github.com:PatoRoa/cs131.git
+  115  git push -u origin main
+  116  git@github.com:PatoRoa/cs131.git
+  117  ls
+  118  rm README.MD
+  119  rm README.md
+  120  rmdir patriciogonzalez/
+  121  git remote add origin git@github.com:PatoRoa/cs131.git
+  122  git remote -v
+  123  git clone https://github.com/PatoRoa/cs131
+  124  l
+  125  ls
+  126  cd cs131
+  127  ls
+  128  mkdir ws1
+  129  ls
+  130  cd ws1
+  131  history > cmds.log
+  132  ls
+  133  git commit
+  134  git commit -m "Upload cmds.log"
+  135  git add cmds.log
+  136  git commit -m "Upload cmds.log"
+  137  git branch
+  138  git push
+  139  git status
+  140  cd
+  141  ls
+  142  cd patriciogonzalez
+  143  ls
+  144  cd cs131
+  145  ls
+  146  rm
+  147  rm --help
+  148  ls
+  149  cd -
+  150  ls
+  151  rmdir -r cs131
+  152  rmdir cs131
+  153  cd
+  154  ls
+  155  cd cs131
+  156  ls
+  157  cd ws1
+  158  ls
+  159  git status
+  160  git push
+  161  git status
+  162  ls
+  163  git push -u origin main
+  164  ls
+  165  vim hellovim.txt
+  166  ls
+  167  vim hellovim.txt
+  168  ls
+  169  vim hellovim.txt
+  170  ls
+  171  vim sample.txt
+  172  sort sample.txt
+  173  cat sample.txt
+  174  wc sample.txt
+  175  cp /datasets/taxidata.tar.gz .
+  176  ls
+  177  cat taxidata.tar.gz
+  178  ls
+  179  man
+  180  tar
+  181  man tar
+  182  tar zxvf taxidata.tar.gz
+  183  ls
+  184  cd taxidata
+  185  ls
+  186  vi 2019-03.csv
+  187  man grep
+  188  vi 2019-03.csv
+  189  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | wc -1 >> results.txt
+  190  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | wc -l >> results.txt
+  191  ls
+  192  vi results.txt
+  193  ..
+  194  .
+  195  cd -
+  196  ls
+  197  cd cs131
+  198  ls
+  199  mkdir ws2
+  200  ls
+  201  cd ws2
+  202  ls
+  203  cd-
+  204  cd -
+  205  ls
+  206  cd -
+  207  cd..
+  208  cdls
+  209  ls
+  210  pwd
+  211  cd patricio23fa
+  212  cd -
+  213  cd /mnt/scratch/patricio23fa@sjsu
+  214  cd ..
+  215  ls
+  216  move taxidata cs131/ws2
+  217  man move
+  218  move
+  219  ls
+  220  man move
+  221  cd cs131
+  222  ls
+  223  cd ws2
+  224  cp /datasets/taxidata.tar.gz .
+  225  ls
+  226  tar zxvf taxidata.tar.gz
+  227  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | wc -l >> results.txt
+  228  cd taxidata
+  229  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | wc -l >> results.txt
+  230  cd-
+  231  cd -
+  232  history > cmds.log
+  233  ls
+  234  vi cmds.log
+  235  cat cmds.log
+  236  vi cmds.log
+  237  cd
+  238  ls
+  239  rm taxidata.tar.gz
+  240  rmdir taxidata
+  241  cd taxidata
+  242  ls
+  243  cd
+  244  ls
+  245  cd cs131
+  246  ls
+  247  cd ws2
+  248  ls
+  249  cd
+  250  man git
+  251  git push
+  252  git commit "Upload WS2"
+  253  ls
+  254  cd cs131
+  255  ls
+  256  git commit ws2
+  257  git commit -m "Upload results.txt and cmds.log"
+  258  git add ws2
+  259  ls
+  260  cd cs131
+  261  ls
+  262  git commit -m "Upload results.txt and cmds.log"
+  263  git status
+  264  git add ws2
+  265  git commit -m "Upload results.txt and cmds.log"
+  266  git push
+  267  git status
+  268  git push
+  269  ls
+  270  cd cs131
+  271  ls
+  272  cd ws2
+  273  ls
+  274  git status
+  275  git push
+  276  cd
+  277  ls
+  278  cd cs131
+  279  vim .gitignore
+  280  ls
+  281  ws2
+  282  cd ws2
+  283  pwd
+  284  ls
+  285  rm taxidata.tar.gz
+  286  man rm
+  287  rm -rf taxidata
+  288  ls
+  289  git status
+  290  git commit -m "Upload ws2"
+  291  cd
+  292  ls
+  293  cd cs131
+  294  ls
+  295  cd ws2
+  296  ls
+  297  cd
+  298  ls
+  299  cd cs131
+  300  ls
+  301  rm .gitignore
+  302  ls
+  303  git status
+  304  git commit -m "Upload ws2"
+  305  git push
+  306  ls
+  307  cd ws2
+  308  ls
+  309  git status
+  310  git rm taxidata.tar.gz
+  311  git status
+  312  git rm taxidata/2019-01.csv
+  313  git status
+  314  git rm taxidata/2019-02.csv
+  315  git rm taxidata/2019-03.csv
+  316  git rm taxidata/2019-04.csv
+  317  git rm taxidata/2019-05.csv
+  318  git rm taxidata/2019-06.csv
+  319  git rm taxidata/2019-07csv
+  320  git rm taxidata/2019-07.csv
+  321  git rm taxidata/2019-08.csv
+  322  git rm taxidata/2019-09.csv
+  323  git rm taxidata/2019-10.csv
+  324  git rm taxidata/2019-11.csv
+  325  git rm taxidata/2019-12.csv
+  326  git rm taxidata/results.txt
+  327  git status
+  328  git push
+  329  git status
+  330  git commit -m "Upload results.txt and cmds.log"
+  331  git push
+  332  git log
+  333  git reset --hard 12f69148885e2b84179f2385f32c5db61bf5b575
+  334  git status
+  335  git push
+  336  git status
+  337  git log
+  338  git reset --hard HEAD~1
+  339  git status
+  340  git reset --hard HEAD~1
+  341  git status
+  342  cd
+  343  ls
+  344  cs131
+  345  cd cs131
+  346  ls
+  347  rm -d patriciogonzalez
+  348  cd patriciogonzalez
+  349  ls
+  350  rm -r cs131
+  351  ls
+  352  cd
+  353  ls
+  354  rm -r patriciogonzalez
+  355  ls
+  356  cd
+  357  ls
+  358  cd cs131
+  359  ls
+  360  mkdir ws2
+  361  ls
+  362  cd
+  363  ls
+  364  cd taxidata
+  365  ls
+  366  less results.txt
+  367  cd
+  368  ls
+  369  cd cs131
+  370  ls
+  371  cd ws2
+  372  pwd
+  373  cd
+  374  ls
+  375  cd taxidata
+  376  pwd
+  377  mv /mnt/scratch/patricio23fa/taxidata/results.txt /mnt/scratch/patricio23fa/cs131/ws2
+  378  ls
+  379  cd
+  380  ls
+  381  cd cs131
+  382  ls
+  383  cd ws2
+  384  ls
+  385  history > cmds.log
