@@ -1,0 +1,9 @@
+Task 1: Top 3 pickup locations in January 2019
+     26 145.0
+     24 145.0
+     19 193.0
+
+Task 2: Top 3 pickup locations in January 2019
+     29 145.0
+     27 145.0
+     21 145.0

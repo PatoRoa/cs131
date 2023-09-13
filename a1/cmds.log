@@ -1,0 +1,62 @@
+Question 1:
+  427  mkdir a1
+  428  ls
+  429  cd a1
+
+Question 2:
+  430  pwd
+
+Question 3:
+  431  id
+
+Question 4:
+  432  mkdir temp
+  433  ls
+  434  ls -l temp
+  435  man chmod
+  436  chmod 110 temp
+  437  ls
+  438  cd temp
+  439  ls
+  440  ls -l
+  441  mkdir folder
+
+Question 5:
+  443  mkdir temp2
+  444  ls
+  445  man mv
+  446  mv temp2 temp
+  447  pwd
+  448  cp /mnt/scratch/patricio23fa/cs131/a1/temp /mnt/scratch/patricio23fa/cs131/a1/temp2
+  449  cp temp temp2
+  450  cp /mnt/scratch/patricio23fa/cs131/a1/temp/* temp2
+
+Question 6:
+  453  cd..
+  454  cd ..
+  455  ls
+  456  cd ..
+  457  ls
+  458  cd ..
+  459  ls
+  460  cd proc
+  461  ls
+  462  vi cpuinfo
+vi meminfo
+
+Question 7:
+head meminfo
+
+Question 8:
+  463  head cpuinfo
+  464  tail cpuinfo
+  465  cat cpuinfo
+
+Question 9:
+  485  cd /etc
+  486  ls
+  487  head os-release
+
+Question 10:
+  488  id os-release
+  489  ls -l os-release

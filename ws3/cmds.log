@@ -1,0 +1,99 @@
+  630  mkdir ws3
+  631  cd ..
+  632  ls
+  633  cd taxidata
+  634  ls
+  635  less 2019-01.csv
+  636  less 2019-03.csv
+  637  less 2019-01.csv
+  638  vi 2019-01.csv > /mnt/scratch/patricioi23fa/cs131/ws3/ws3.txt
+  639  cd
+  640  ls
+  641  cd cs131
+  642  cd ws3
+  643  ls
+  644  > ws3.txt
+  645  ls
+  646  cd
+  647  ls
+  648  cd taxidata
+  649  vi 2019-01.csv > /mnt/scratch/patricioi23fa/cs131/ws3/ws3.txt
+  650  vi 2019-01.csv > /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  651  man cat
+  652  cat -A 2019-01.csv > /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  653  cd
+  654  cd cs131
+  655  cd ws3
+  656  ls
+  657  head ws3.txt
+  658  man sort
+  659  sort -nr ws3.txt
+  660  cd cs131
+  661  cd ws3
+  662  ls
+  663  head ws3.txt
+  664  rm ws3.txt
+  665  cd
+  666  cd cs131
+  667  ls
+  668  cd
+  669  ls
+  670  cd taxidata
+  671  ls
+  672  cat -A 2019-01.csv > /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  673  sort -nr 2019-01.csv > /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  674  cd
+  675  cd cs131
+  676  cd ws3
+  677  ls
+  678  head ws3.txt
+  679  cd
+  680  ls
+  681  cd taxidata
+  682  ls
+  683  cut -c 76-81 2019-01.csv
+  684  cd taxidata
+  685  ls
+  686  cut -d "," -f 8 2019-01.csv > /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  687  cd
+  688  cd cs131
+  689  cd ws3
+  690  less ws3.txt
+  691  sort -nr ws3.txt
+  692  uniq -c ws3.txt
+  693  uniq -c ws3.txt > ws3.txt
+  694  head ws3.txt
+  695  ls
+  696  head ws3.txt
+  697  less ws3.txt
+  698  rm ws3.txt
+  699  cd
+  700  cd taxidata
+  701  ls
+  702  cut -d "," -f 8 2019-01.csv > task1cut.txt
+  703  ls
+  704  uniq -c task1cut.txt > task1uniq.txt
+  705  head task1uniq.txt
+  706  sort -nr task1uniq.txt > task1sort.txt
+  707  head task1sort.txt
+  708  head -n 3 task1sort.txt
+  709  head -n 3 task1sort.txt > /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  710  cd
+  711  cd cs131
+  712  cd ws3
+  713  less ws3.txt
+  714  head ws3.txt
+  715  vi ws3.txt
+  716  cd
+  717  cd taxidata
+  718  ls
+  719  cut -d "," -f 8 2019-02.csv | uniq -c | sort -nr | head -n 3
+  720  cut -d "," -f 8 2019-02.csv | uniq -c | sort -nr | head -n 3 >> /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  721  cd
+  722  cd cs131/ws3
+  723  vi ws3.txt
+  724  history > cmds.log
+  725  vi cmds.log
+  726  rm cmds.log
+  727  tail -n 100 history
+  728  history > cmds.log
