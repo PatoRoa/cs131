@@ -1,0 +1,16 @@
+Task 1
+l
+total 260
+-rw-rw-r-- 1 patricio23fa patricio23fa 238718 Aug 29 21:05 index.html
+-rw-rw-r-- 1 patricio23fa patricio23fa     67 Aug 30 16:54 hellovim.txt
+-rw-rw-r-- 1 patricio23fa patricio23fa     62 Aug 30 17:16 sample.txt
+-rw-rw-r-- 1 patricio23fa patricio23fa     16 Sep  7 00:09 README.md
+drwxr-xr-x 2 patricio23fa patricio23fa   4096 Sep 12 23:25 taxidata
+-rw-rw-r-- 1 patricio23fa patricio23fa   2477 Sep 18 17:37 users.lst
+drwxrwxr-x 8 patricio23fa patricio23fa   4096 Sep 19 23:50 cs131
+
+w
+      8      65     493
+
+Task 2
+2.75000000000000000000

@@ -1,0 +1,100 @@
+  860  ls -A
+  861  vi bashrc
+  862  cd
+  863  ls -a
+  864  touch .bash_profile
+  865  ls
+  866  ls -a
+  867  ls -A
+  868  clear
+  869  ls -a
+  870  ls -A
+  871  vi .bash_profile
+  872  head .bash_profile
+  873  man ls
+  874  cd cs131
+  875  cd
+  876  cd cs131; cd ws4
+  877  script ws4.txt
+  878  ls -ltr
+  879  ls -l | wc
+  880  cd
+  881  vi .bash_profile
+  882  less .bash_profile
+  883  l
+  884  w
+  885  cd cs131; cd ws4
+  886  ls
+  887  rm ws4.txt
+  888  script ws4.txt
+  889  cd cs131; cd ws4
+  890  ls
+  891  rm ws4.txt
+  892  touch ws4.txt
+  893  ls
+  894  cd
+  895  l >> /mnt/scratch/patricio23fa/cs131/ws4/ws4.txt
+  896  w >> /mnt/scratch/patricio23fa/cs131/ws4/ws4.txt
+  897  cd cs131; cd ws4; vi ws4.txt
+  898  l
+  899  w
+  900  cd
+  901  clear
+  902  cd cs131; cd ws4; mkdir FARE
+  903  ls
+  904  cd
+  905  cd taxidata
+  906  ls
+  907  head 2019-06.csv
+  908  cut -d "," -f 9 2019-06.csv
+  909  ls
+  910  head 2019-06.csv
+  911  man head
+  912  head -n 4 2019-06.csv
+  913  head -n 3 2019-06.csv
+  914  cut -d "," -f 9 2019-06.csv | head -n 3
+  915  cut -d "," -f 8 2019-06.csv | head -n 3
+  916  cut -d "," -f 9 2019-06.csv | head -n 3
+  917  cut -d "," -f 11 2019-06.csv | head -n 3
+  918  touch /mnt/scratch/patricio23fa/cs131/ws4/145.0-145.0.txt
+  919  touch /mnt/scratch/patricio23fa/cs131/ws4/262.0-263.0.txt
+  920  cut -d "," -f 11 2019-06.csv | sed -n 2p
+  921  cut -d "," -f 11 2019-06.csv | sed -n 2p >> /mnt/scratch/patricio23fa/cs131/ws4/145.0-145.0.txt
+  922  cut -d "," -f 11 2019-06.csv | sed -n 3p >> /mnt/scratch/patricio23fa/cs131/ws4/262.0-263.0.txt
+  923  cd
+  924  cd cs131; cd ws4
+  925  ls
+  926  head 145.0-145.0.txt 
+  927  head 262.0-263.0.txt 
+  928  man bc
+  929  echo head 145.0-145.0.txt + head 262.0-263.0.txt 
+  930  echo "head 145.0-145.0.txt" + "head 262.0-263.0.txt" 
+  931  bc head 145.0-145.0.txt + head 262.0-263.0.txt / 2
+  932  bc 145.0-145.0.txt + 262.0-263.0.txt / 2
+  933  bc 3.0 + 2.5 / 2
+  934  echo "3.0 + 2.5 / 2" | bc
+  935  echo "3.0 + 2.5" | bc
+  936  echo "3.0 + 2.5 / 2" | bc -l
+  937  echo "5.5 /2" | bc -l
+  938  echo "5.5 /2" | bc -l >> ws4.txt
+  939  head ws4.txt
+  940  vi ws4.txt
+  941  history > cmds.log
+  942  ls
+  943  vi cmds.log
+  944  less 100 cmds.log
+  945  less -n 100 cmds.log
+  946  ls
+  947  less cmds.log
+  948  less -n 100 cmds.log
+  949  man less
+  950  man head
+  951  tail -n 100 cmds.log
+  952  tail -n 100 cmds.log > cmds.log
+  953  vi cmds.log
+  954  head cmds.log
+  955  history > cmds.log
+  956  head cmds.log
+  957  rm cmds.log
+  958  history cmd.log
+  959  history > cmd.log

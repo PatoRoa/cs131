@@ -1,0 +1,959 @@
+    1  passwd
+    2  wget www.github.com
+    3  ls
+    4  mkdir patriciogonzalez
+    5  ls
+    6  cd patriciogonzalez
+    7  ls
+    8  git init cs131
+    9  ls
+   10  cd cs131
+   11  mkdir ws1
+   12  ls
+   13  cd ws1
+   14  history
+   15  cmds.log
+   16  >cmds.log
+   17  ls
+   18  git status
+   19  pwd
+   20  cd patriciogonzalez
+   21  cd
+   22  ls
+   23  pwd
+   24  cd patriciogonzalez
+   25  git status
+   26  ls
+   27  cs131
+   28  cd cs131
+   29  git status
+   30  ls
+   31  cd
+   32  ls
+   33  rmdir patriciogonzalez
+   34  cd patricioogonzalez
+   35  cd patriciogonzalez
+   36  ls
+   37  cd cs131
+   38  ls
+   39  cd ws1
+   40  ls
+   41  rm cmds.log
+   42  ls
+   43  cd
+   44  ls
+   45  rmdir patriciogonzalez
+   46  rm patriciogonzalez
+   47  cd patriciogonzalez
+   48  ls
+   49  rmdir cs131
+   50  cd cs131
+   51  ls
+   52  rmdir ws1
+   53  ls
+   54  cd
+   55  rmdir ws1
+   56  ls
+   57  cd patriciogonzalez
+   58  ls
+   59  cd cs131
+   60  rmdir ws1
+   61  ls
+   62  cd
+   63  cd patriciogonzalez
+   64  ls
+   65  rmdir cs131
+   66  cd cs131
+   67  rmdir ws1
+   68  ls
+   69  cd
+   70  ls
+   71  cd patriciogonzalez
+   72  ls
+   73  cd cs131
+   74  ls
+   75  cd -
+   76  rmdir cs131
+   77  ls
+   78  cd cs131
+   79  ls
+   80  rm
+   81  cd -
+   82  rmdir cs131
+   83  cd cs131
+   84  ls
+   85  rmdir
+   86  rmdir --help
+   87  cd-
+   88  cd -
+   89  rmdir --ignore-fail-on-non-empty ws1
+   90  cd -
+   91  ls
+   92  cd -
+   93  ls
+   94  cd
+   95  ls
+   96  echo "# cs131" >> README.md
+   97  git init
+   98  git add README.md
+   99  git commit -m "first commit"
+  100  git branch -M main
+  101  git remote add origin git@github.com:PatoRoa/cs131.git
+  102  git push -u origin main
+  103  ls
+  104  pwd
+  105  echo "# cs131" >> README.md
+  106  git init
+  107  git add README.md
+  108  git commit -m "first commit"
+  109  git config -- global user.email "patricio.ilan.gonzalez2001@gmail.com"
+  110  git config --global user.email "patricio.ilan.gonzalez2001@gmail.com"
+  111  git config --global user.name "PatoRoa"
+  112  git commit -m "first commit"
+  113  git branch -M main
+  114  git remote add origin git@github.com:PatoRoa/cs131.git
+  115  git push -u origin main
+  116  git@github.com:PatoRoa/cs131.git
+  117  ls
+  118  rm README.MD
+  119  rm README.md
+  120  rmdir patriciogonzalez/
+  121  git remote add origin git@github.com:PatoRoa/cs131.git
+  122  git remote -v
+  123  git clone https://github.com/PatoRoa/cs131
+  124  l
+  125  ls
+  126  cd cs131
+  127  ls
+  128  mkdir ws1
+  129  ls
+  130  cd ws1
+  131  history > cmds.log
+  132  ls
+  133  git commit
+  134  git commit -m "Upload cmds.log"
+  135  git add cmds.log
+  136  git commit -m "Upload cmds.log"
+  137  git branch
+  138  git push
+  139  git status
+  140  cd
+  141  ls
+  142  cd patriciogonzalez
+  143  ls
+  144  cd cs131
+  145  ls
+  146  rm
+  147  rm --help
+  148  ls
+  149  cd -
+  150  ls
+  151  rmdir -r cs131
+  152  rmdir cs131
+  153  cd
+  154  ls
+  155  cd cs131
+  156  ls
+  157  cd ws1
+  158  ls
+  159  git status
+  160  git push
+  161  git status
+  162  ls
+  163  git push -u origin main
+  164  ls
+  165  vim hellovim.txt
+  166  ls
+  167  vim hellovim.txt
+  168  ls
+  169  vim hellovim.txt
+  170  ls
+  171  vim sample.txt
+  172  sort sample.txt
+  173  cat sample.txt
+  174  wc sample.txt
+  175  cp /datasets/taxidata.tar.gz .
+  176  ls
+  177  cat taxidata.tar.gz
+  178  ls
+  179  man
+  180  tar
+  181  man tar
+  182  tar zxvf taxidata.tar.gz
+  183  ls
+  184  cd taxidata
+  185  ls
+  186  vi 2019-03.csv
+  187  man grep
+  188  vi 2019-03.csv
+  189  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | wc -1 >> results.txt
+  190  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | wc -l >> results.txt
+  191  ls
+  192  vi results.txt
+  193  ..
+  194  .
+  195  cd -
+  196  ls
+  197  cd cs131
+  198  ls
+  199  mkdir ws2
+  200  ls
+  201  cd ws2
+  202  ls
+  203  cd-
+  204  cd -
+  205  ls
+  206  cd -
+  207  cd..
+  208  cdls
+  209  ls
+  210  pwd
+  211  cd patricio23fa
+  212  cd -
+  213  cd /mnt/scratch/patricio23fa@sjsu
+  214  cd ..
+  215  ls
+  216  move taxidata cs131/ws2
+  217  man move
+  218  move
+  219  ls
+  220  man move
+  221  cd cs131
+  222  ls
+  223  cd ws2
+  224  cp /datasets/taxidata.tar.gz .
+  225  ls
+  226  tar zxvf taxidata.tar.gz
+  227  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | wc -l >> results.txt
+  228  cd taxidata
+  229  grep ".*,.*,\"2019-03-12.*" 2019-03.csv | wc -l >> results.txt
+  230  cd-
+  231  cd -
+  232  history > cmds.log
+  233  ls
+  234  vi cmds.log
+  235  cat cmds.log
+  236  vi cmds.log
+  237  cd
+  238  ls
+  239  rm taxidata.tar.gz
+  240  rmdir taxidata
+  241  cd taxidata
+  242  ls
+  243  cd
+  244  ls
+  245  cd cs131
+  246  ls
+  247  cd ws2
+  248  ls
+  249  cd
+  250  man git
+  251  git push
+  252  git commit "Upload WS2"
+  253  ls
+  254  cd cs131
+  255  ls
+  256  git commit ws2
+  257  git commit -m "Upload results.txt and cmds.log"
+  258  git add ws2
+  259  ls
+  260  cd cs131
+  261  ls
+  262  git commit -m "Upload results.txt and cmds.log"
+  263  git status
+  264  git add ws2
+  265  git commit -m "Upload results.txt and cmds.log"
+  266  git push
+  267  git status
+  268  git push
+  269  ls
+  270  cd cs131
+  271  ls
+  272  cd ws2
+  273  ls
+  274  git status
+  275  git push
+  276  cd
+  277  ls
+  278  cd cs131
+  279  vim .gitignore
+  280  ls
+  281  ws2
+  282  cd ws2
+  283  pwd
+  284  ls
+  285  rm taxidata.tar.gz
+  286  man rm
+  287  rm -rf taxidata
+  288  ls
+  289  git status
+  290  git commit -m "Upload ws2"
+  291  cd
+  292  ls
+  293  cd cs131
+  294  ls
+  295  cd ws2
+  296  ls
+  297  cd
+  298  ls
+  299  cd cs131
+  300  ls
+  301  rm .gitignore
+  302  ls
+  303  git status
+  304  git commit -m "Upload ws2"
+  305  git push
+  306  ls
+  307  cd ws2
+  308  ls
+  309  git status
+  310  git rm taxidata.tar.gz
+  311  git status
+  312  git rm taxidata/2019-01.csv
+  313  git status
+  314  git rm taxidata/2019-02.csv
+  315  git rm taxidata/2019-03.csv
+  316  git rm taxidata/2019-04.csv
+  317  git rm taxidata/2019-05.csv
+  318  git rm taxidata/2019-06.csv
+  319  git rm taxidata/2019-07csv
+  320  git rm taxidata/2019-07.csv
+  321  git rm taxidata/2019-08.csv
+  322  git rm taxidata/2019-09.csv
+  323  git rm taxidata/2019-10.csv
+  324  git rm taxidata/2019-11.csv
+  325  git rm taxidata/2019-12.csv
+  326  git rm taxidata/results.txt
+  327  git status
+  328  git push
+  329  git status
+  330  git commit -m "Upload results.txt and cmds.log"
+  331  git push
+  332  git log
+  333  git reset --hard 12f69148885e2b84179f2385f32c5db61bf5b575
+  334  git status
+  335  git push
+  336  git status
+  337  git log
+  338  git reset --hard HEAD~1
+  339  git status
+  340  git reset --hard HEAD~1
+  341  git status
+  342  cd
+  343  ls
+  344  cs131
+  345  cd cs131
+  346  ls
+  347  rm -d patriciogonzalez
+  348  cd patriciogonzalez
+  349  ls
+  350  rm -r cs131
+  351  ls
+  352  cd
+  353  ls
+  354  rm -r patriciogonzalez
+  355  ls
+  356  cd
+  357  ls
+  358  cd cs131
+  359  ls
+  360  mkdir ws2
+  361  ls
+  362  cd
+  363  ls
+  364  cd taxidata
+  365  ls
+  366  less results.txt
+  367  cd
+  368  ls
+  369  cd cs131
+  370  ls
+  371  cd ws2
+  372  pwd
+  373  cd
+  374  ls
+  375  cd taxidata
+  376  pwd
+  377  mv /mnt/scratch/patricio23fa/taxidata/results.txt /mnt/scratch/patricio23fa/cs131/ws2
+  378  ls
+  379  cd
+  380  ls
+  381  cd cs131
+  382  ls
+  383  cd ws2
+  384  ls
+  385  history > cmds.log
+  386  ls
+  387  less cmds.log
+  388  ls
+  389  cd
+  390  git status
+  391  git add ws2
+  392  git add /mnt/scratch/patricio23fa/cs131/ws2
+  393  git status
+  394  git push
+  395  git push --set-upstream origin main
+  396  git commit -m "Upload results.txt and cmds.log"
+  397  git restore README.md
+  398  git status
+  399  cd cs131
+  400  ls
+  401  git commit --branch
+  402  git add ws2/
+  403  git status
+  404  git push
+  405  git status
+  406  git commit -m "Upload results.txt and cmds.log"
+  407  git push
+  408  ls
+  409  cd cs131
+  410  ls
+  411  cd ws2
+  412  ls
+  413  man cd
+  414  cd ..
+  415  ls
+  416  cd - ws2
+  417  man cd
+  418  cd ws2
+  419  ls
+  420  cd ..
+  421  cd ws1
+  422  ls
+  423  cd
+  424  ls
+  425  cd cs131
+  426  ls
+  427  mkdir a1
+  428  ls
+  429  cd a1
+  430  pwd
+  431  id
+  432  mkdir temp
+  433  ls
+  434  ls -l temp
+  435  man chmod
+  436  chmod 110 temp
+  437  ls
+  438  cd temp
+  439  ls
+  440  ls -l
+  441  mkdir folder
+  442  cd ..
+  443  mkdir temp2
+  444  ls
+  445  man mv
+  446  mv temp2 temp
+  447  pwd
+  448  cp /mnt/scratch/patricio23fa/cs131/a1/temp /mnt/scratch/patricio23fa/cs131/a1/temp2
+  449  cp temp temp2
+  450  cp /mnt/scratch/patricio23fa/cs131/a1/temp/* temp2
+  451  cd
+  452  ls
+  453  cd..
+  454  cd ..
+  455  ls
+  456  cd ..
+  457  ls
+  458  cd ..
+  459  ls
+  460  cd proc
+  461  ls
+  462  vi cpuinfo
+  463  head cpuinfo
+  464  tail cpuinfo
+  465  cat cpuinfo
+  466  pwd
+  467  cd ..
+  468  ls
+  469  cd sys
+  470  ls
+  471  cd firmware
+  472  ls
+  473  cd ..
+  474  cd boot
+  475  ls
+  476  cd ..
+  477  cd srv
+  478  ls
+  479  cd ..
+  480  cd srv
+  481  ls -l
+  482  cd ..
+  483  cd bin
+  484  ls
+  485  cd /etc
+  486  ls
+  487  head os-release
+  488  id os-release
+  489  ls -l os-release
+  490  cd
+  491  ls
+  492  cd cs131
+  493  cd a1
+  494  history > cmds.log
+  495  ls
+  496  history > a1.txt
+  497  vi cmds.log
+  498  > a1.txt
+  499  vi a1.txt
+  500  vi cmds.log
+  501  rm a1.txt
+  502  rm cmds.log
+  503  ls
+  504  rmdir temp
+  505  rmdir temp2
+  506  ls
+  507  cd ..
+  508  ls
+  509  rmdir a1
+  510  ls
+  511  mkdir a1
+  512  ls
+  513  cd a1
+  514  mkdir tempm
+  515  rmdir
+  516  rmdir tempm
+  517  mkdir temp
+  518  ls
+  519  ls >> a1.txt
+  520  ls
+  521  vi a1.txt
+  522  ls 2>&1 | tee a1.txt
+  523  vi a1.txt
+  524  pwd >> a1.txt
+  525  pwd
+  526  vi a1.txt
+  527  mkdir temp
+  528  chmod 110 temp
+  529  ls temp
+  530  ls temp >> a1.txt
+  531  vi a1.txt
+  532  ls temp &>> a1.txt
+  533  vi a1.txt
+  534  ls -l temp
+  535  ls -l temp &>> a1.txt
+  536  cd temp
+  537  mkdir folder
+  538  mkdir folder &>> a1.txt
+  539  cd ..
+  540  a1.txt
+  541  vi a1.txt
+  542  cd temp
+  543  mkdir folder &>> /mnt/scratch/patricio23fa/cs131/a1/a1.txt
+  544  cd ..
+  545  vi a1.txt
+  546  mkdir temp2
+  547  mv temp temp2
+  548  mv temp temp2 &>> a1.txt
+  549  vi a1.txt
+  550  cp temp temp3
+  551  cp temp
+  552  cp temp temp2
+  553  cp temp temp2 &>> a1.txt
+  554  cp /mnt/scratch/patricio23fa/cs131/a1/temp/* temp2
+  555  cd
+  556  ls
+  557  cd ..
+  558  ls
+  559  cd ..
+  560  ls
+  561  cd ..
+  562  ls
+  563  ls &>> /mnt/scratch/patricio23fa/cs131/a1/a1.txt
+  564  cd proc
+  565  ls
+  566  head cpuinfo &>> /mnt/scratch/patricio23fa/cs131/a1/a1.txt
+  567  head spuinfo
+  568  head cpuinfo
+  569  tail cpuinfo &>> /mnt/scratch/patricio23fa/cs131/a1/a1.txt
+  570  cat cpuinfo &>> /mnt/scratch/patricio23fa/cs131/a1/a1.txt
+  571  cd ..
+  572  ls
+  573  cd bin
+  574  ls
+  575  cd ..
+  576  ls
+  577  cd boot
+  578  ls
+  579  cd ..
+  580  cd srv
+  581  ls
+  582  cd ..
+  583  cd sys
+  584  ls
+  585  cd ..
+  586  cd /etc/
+  587  ls &>> /mnt/scratch/patricio23fa/cs131/a1/a1.txt
+  588  ls
+  589  cd os-releasse
+  590  cd os-release
+  591  vi os-release
+  592  head os-release
+  593  cat os-release
+  594  cat os-release &>> /mnt/scratch/patricio23fa/cs131/a1/a1.txt
+  595  ls -l os-release &>> /mnt/scratch/patricio23fa/cs131/a1/a1.txt
+  596  ls -l os-release
+  597  cd /mnt/scratch/patricio23fa/cs131/a1
+  598  ls
+  599  vi a1.txt
+  600  history > cmds.log
+  601  ls
+  602  cd cs131
+  603  ls
+  604  cd a1
+  605  ls
+  606  vi cmds.log
+  607  head cmds.log
+  608  vi a1.txt
+  609  id
+  610  vi a1.txt
+  611  cd
+  612  cd ..
+  613  ls
+  614  cd ..
+  615  ls
+  616  cd ..
+  617  ls
+  618  cd proc
+  619  ls
+  620  head cpuinfo
+  621  head meminfo
+  622  head meminfo >> /mnt/scratch/patricio23fa/cs131/a1/a1.txt
+  623  cd /mnt/scratch/patricio23fa/cs131/aq
+  624  cd /mnt/scratch/patricio23fa/cs131/a1
+  625  vi a1.txt
+  626  vi cmds.log
+  627  vi a1.txt
+  628  cd ..
+  629  ls
+  630  mkdir ws3
+  631  cd ..
+  632  ls
+  633  cd taxidata
+  634  ls
+  635  less 2019-01.csv
+  636  less 2019-03.csv
+  637  less 2019-01.csv
+  638  vi 2019-01.csv > /mnt/scratch/patricioi23fa/cs131/ws3/ws3.txt
+  639  cd
+  640  ls
+  641  cd cs131
+  642  cd ws3
+  643  ls
+  644  > ws3.txt
+  645  ls
+  646  cd
+  647  ls
+  648  cd taxidata
+  649  vi 2019-01.csv > /mnt/scratch/patricioi23fa/cs131/ws3/ws3.txt
+  650  vi 2019-01.csv > /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  651  man cat
+  652  cat -A 2019-01.csv > /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  653  cd
+  654  cd cs131
+  655  cd ws3
+  656  ls
+  657  head ws3.txt
+  658  man sort
+  659  sort -nr ws3.txt
+  660  cd cs131
+  661  cd ws3
+  662  ls
+  663  head ws3.txt
+  664  rm ws3.txt
+  665  cd
+  666  cd cs131
+  667  ls
+  668  cd
+  669  ls
+  670  cd taxidata
+  671  ls
+  672  cat -A 2019-01.csv > /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  673  sort -nr 2019-01.csv > /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  674  cd
+  675  cd cs131
+  676  cd ws3
+  677  ls
+  678  head ws3.txt
+  679  cd
+  680  ls
+  681  cd taxidata
+  682  ls
+  683  cut -c 76-81 2019-01.csv
+  684  cd taxidata
+  685  ls
+  686  cut -d "," -f 8 2019-01.csv > /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  687  cd
+  688  cd cs131
+  689  cd ws3
+  690  less ws3.txt
+  691  sort -nr ws3.txt
+  692  uniq -c ws3.txt
+  693  uniq -c ws3.txt > ws3.txt
+  694  head ws3.txt
+  695  ls
+  696  head ws3.txt
+  697  less ws3.txt
+  698  rm ws3.txt
+  699  cd
+  700  cd taxidata
+  701  ls
+  702  cut -d "," -f 8 2019-01.csv > task1cut.txt
+  703  ls
+  704  uniq -c task1cut.txt > task1uniq.txt
+  705  head task1uniq.txt
+  706  sort -nr task1uniq.txt > task1sort.txt
+  707  head task1sort.txt
+  708  head -n 3 task1sort.txt
+  709  head -n 3 task1sort.txt > /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  710  cd
+  711  cd cs131
+  712  cd ws3
+  713  less ws3.txt
+  714  head ws3.txt
+  715  vi ws3.txt
+  716  cd
+  717  cd taxidata
+  718  ls
+  719  cut -d "," -f 8 2019-02.csv | uniq -c | sort -nr | head -n 3
+  720  cut -d "," -f 8 2019-02.csv | uniq -c | sort -nr | head -n 3 >> /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  721  cd
+  722  cd cs131/ws3
+  723  vi ws3.txt
+  724  history > cmds.log
+  725  vi cmds.log
+  726  rm cmds.log
+  727  tail -n 100 history
+  728  history > cmds.log
+  729  vi cmds.log
+  730  cd ..
+  731  git status
+  732  git commit -m "Upload a1 and ws3"
+  733  git add a1
+  734  ls
+  735  cd a1
+  736  rm temp
+  737  rmdir temp
+  738  ls
+  739  rmdir temp2
+  740  ls
+  741  cd ..
+  742  git add a1
+  743  git add ws3
+  744  git commit -m "Upload a1 and ws3
+  745  :q
+  746  cd cs131
+  747  git status
+  748  git push
+  749  git status
+  750  git commit -m "Upload a1 and ws3"
+  751  git push
+  752  ls
+  753  cd cs131
+  754  cd ws3
+  755  ls
+  756  less ws3.txt
+  757  vi ws3.txt
+  758  less ws3.txt
+  759  cd taxidata
+  760  ls
+  761  cd
+  762  cd cs131
+  763  cd ..
+  764  cd taxidata
+  765  ls
+  766  cut -d -f 8 2019-01.csv | sort -nr | uniq -c | sort -nr | head -3
+  767  cut -d "," -f 8 2019-01.csv | sort -nr | uniq -c | sort -nr | head -3
+  768  cut -d "," -f 8 2019-01.csv | sort -n | uniq -c | sort -nr | head -3
+  769  pwd
+  770  cut -d "," -f 8 2019-01.csv | sort -n | uniq -c | sort -nr | head -3 >> /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  771  cut -d "," -f 8 2019-02.csv | sort -n | uniq -c | sort -nr | head -3 >> /mnt/scratch/patricio23fa/cs131/ws3/ws3.txt
+  772  cd cs131
+  773  cd ..
+  774  cd cs131
+  775  cd ws3
+  776  ls
+  777  vi ws3.txt
+  778  cd ..
+  779  git status
+  780  git add ws3.txt
+  781  git add ws3/ws3.txt
+  782  git commit -m "Update ws3.txt"
+  783  git push
+  784  clear
+  785  cd ..
+  786  ls
+  787  find / -empty
+  788  find ./ -empty
+  789  ls -l
+  790  ls
+  791  man ls
+  792  ls -a
+  793  cd cs131
+  794  ls -a
+  795  cd ..
+  796  find ./ -type f -empty
+  797  cd
+  798  cd ~
+  799  cd cs131
+  800  cd ~
+  801  echo "balls
+  802  echo "balls"
+  803  echo "*"
+  804  ps
+  805  ps aux
+  806  for i in {1..5}; do echo balls; done
+  807  ls
+  808  head README.md
+  809  clear
+  810  who | tee users.lst
+  811  ls
+  812  cd .git
+  813  ls -A
+  814  cd ..
+  815  ls
+  816  ls -A
+  817  cd taxidata
+  818  ls -A
+  819  cd 
+  820  ls
+  821  cd
+  822  l
+  823  w
+  824  l
+  825  ls
+  826  cd cs131
+  827  ls -l
+  828  man ls
+  829  ls -a
+  830  ls -A
+  831  cd ..
+  832  ls -A
+  833  script ws4.txt
+  834  ls
+  835  rm ws4.txt
+  836  ls
+  837  cd cs131
+  838  ls
+  839  mkdir ws4
+  840  cd ws4
+  841  cd
+  842  ls
+  843  ls -A
+  844  find .bashrc
+  845  find -name ".bashrc"
+  846  ls
+  847  ls -A
+  848  find ".bash"
+  849  find -name ".bashrc"
+  850  find -name ".bashrc" | echo
+  851  less .bash_history
+  852  cd /etc/
+  853  ls
+  854  less bashrc
+  855  type .bashrc
+  856  cd
+  857  ls -l .bashrc
+  858  ls -l bashrc
+  859  cd /etc/
+  860  ls -A
+  861  vi bashrc
+  862  cd
+  863  ls -a
+  864  touch .bash_profile
+  865  ls
+  866  ls -a
+  867  ls -A
+  868  clear
+  869  ls -a
+  870  ls -A
+  871  vi .bash_profile
+  872  head .bash_profile
+  873  man ls
+  874  cd cs131
+  875  cd
+  876  cd cs131; cd ws4
+  877  script ws4.txt
+  878  ls -ltr
+  879  ls -l | wc
+  880  cd
+  881  vi .bash_profile
+  882  less .bash_profile
+  883  l
+  884  w
+  885  cd cs131; cd ws4
+  886  ls
+  887  rm ws4.txt
+  888  script ws4.txt
+  889  cd cs131; cd ws4
+  890  ls
+  891  rm ws4.txt
+  892  touch ws4.txt
+  893  ls
+  894  cd
+  895  l >> /mnt/scratch/patricio23fa/cs131/ws4/ws4.txt
+  896  w >> /mnt/scratch/patricio23fa/cs131/ws4/ws4.txt
+  897  cd cs131; cd ws4; vi ws4.txt
+  898  l
+  899  w
+  900  cd
+  901  clear
+  902  cd cs131; cd ws4; mkdir FARE
+  903  ls
+  904  cd
+  905  cd taxidata
+  906  ls
+  907  head 2019-06.csv
+  908  cut -d "," -f 9 2019-06.csv
+  909  ls
+  910  head 2019-06.csv
+  911  man head
+  912  head -n 4 2019-06.csv
+  913  head -n 3 2019-06.csv
+  914  cut -d "," -f 9 2019-06.csv | head -n 3
+  915  cut -d "," -f 8 2019-06.csv | head -n 3
+  916  cut -d "," -f 9 2019-06.csv | head -n 3
+  917  cut -d "," -f 11 2019-06.csv | head -n 3
+  918  touch /mnt/scratch/patricio23fa/cs131/ws4/145.0-145.0.txt
+  919  touch /mnt/scratch/patricio23fa/cs131/ws4/262.0-263.0.txt
+  920  cut -d "," -f 11 2019-06.csv | sed -n 2p
+  921  cut -d "," -f 11 2019-06.csv | sed -n 2p >> /mnt/scratch/patricio23fa/cs131/ws4/145.0-145.0.txt
+  922  cut -d "," -f 11 2019-06.csv | sed -n 3p >> /mnt/scratch/patricio23fa/cs131/ws4/262.0-263.0.txt
+  923  cd
+  924  cd cs131; cd ws4
+  925  ls
+  926  head 145.0-145.0.txt 
+  927  head 262.0-263.0.txt 
+  928  man bc
+  929  echo head 145.0-145.0.txt + head 262.0-263.0.txt 
+  930  echo "head 145.0-145.0.txt" + "head 262.0-263.0.txt" 
+  931  bc head 145.0-145.0.txt + head 262.0-263.0.txt / 2
+  932  bc 145.0-145.0.txt + 262.0-263.0.txt / 2
+  933  bc 3.0 + 2.5 / 2
+  934  echo "3.0 + 2.5 / 2" | bc
+  935  echo "3.0 + 2.5" | bc
+  936  echo "3.0 + 2.5 / 2" | bc -l
+  937  echo "5.5 /2" | bc -l
+  938  echo "5.5 /2" | bc -l >> ws4.txt
+  939  head ws4.txt
+  940  vi ws4.txt
+  941  history > cmds.log
+  942  ls
+  943  vi cmds.log
+  944  less 100 cmds.log
+  945  less -n 100 cmds.log
+  946  ls
+  947  less cmds.log
+  948  less -n 100 cmds.log
+  949  man less
+  950  man head
+  951  tail -n 100 cmds.log
+  952  tail -n 100 cmds.log > cmds.log
+  953  vi cmds.log
+  954  head cmds.log
+  955  history > cmds.log
+  956  head cmds.log
+  957  rm cmds.log
+  958  history cmd.log
+  959  history > cmd.log
