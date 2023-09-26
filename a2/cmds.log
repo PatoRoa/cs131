@@ -1,25 +1,93 @@
-Task 5:  
-  983  cd taxidata; ls
-  984  grep '^[0-9]\..,"2019' 2019-01.csv > 2019.txt
-  985  grep '^[0-9]\..,"2019' 2019-02.csv >> 2019.txt
-  986  grep '^[0-9]\..,"2019' 2019-03.csv >> 2019.txt
-  987  grep '^[0-9]\..,"2019' 2019-04.csv >> 2019.txt
-  988  grep '^[0-9]\..,"2019' 2019-05.csv >> 2019.txt
-  989  grep '^[0-9]\..,"2019' 2019-06.csv >> 2019.txt
-  990  grep '^[0-9]\..,"2019' 2019-07.csv >> 2019.txt
-  991  grep '^[0-9]\..,"2019' 2019-08.csv >> 2019.txt
-  992  grep '^[0-9]\..,"2019' 2019-09.csv >> 2019.txt
-  993  grep '^[0-9]\..,"2019' 2019-10.csv >> 2019.txt
-  994  grep '^[0-9]\..,"2019' 2019-11.csv >> 2019.txt
-  995  grep '^[0-9]\..,"2019' 2019-12.csv >> 2019.txt
-  996  wc -l 2019.txt
-  997  wc -l 2019.txt >> /mnt/scratch/patricio23fa/cs131/a2/a2.txt
-  998  head -n 3 2019-01.csv
-  999  cut -d "," -f 8 2019.txt > 2019cut.txt; head 2019cut.txt
- 1000  sort -nr 2019cut.txt > 2019sort.txt; head 2019sort.txt
- 1001  uniq -c 2019sort.txt > 2019uniq.txt; head 2019uniq.txt
- 1002  sort -nr 2019uniq.txt > 2019sort2.txt
- 1003  head 2019sort2.txt
- 1004  head -n 1 2019sort2.txt >> /mnt/scratch/patricio23fa/cs131/a2/a2.txt
- 1005  cd; cd cs131; cd a2; vi a2.txt
- 1006  history > cmds.log
+Assignment 2 cmds.log 
+Task 1:
+1030  echo "Task 1"
+ 1031  grep '^[0-9]\..,"2019-05-11' 2019-05.csv | cut -d "," -f 17 > a2t1bc.txt; head a2t1bc.txt > a2.txt; head a2.txt
+ 1032  rm a2.txt
+ 1033  grep '^[0-9]\..,"2019-05-11' 2019-05.csv | cut -d "," -f 17 > a2t1bc.txt; head a2t1bc.txt > a2.txt; head a2.txt
+ 1034  paste -s -d+ a2t1bc.txt | bc
+ 1035  paste -s -d+ a2t1bc.txt | bc >> a2.txt
+ 1036  head a2t1bc.txt
+ 1037  wc -l a2t1bc.txt
+ 1038  wc -l a2t1bc.txt >> a2.txt
+ 1039  paste -s -d+ a2t1bc.txt | bc > a2t1bc2.txt
+ 1040  wc -l a2t1bc.txt >> a2t1bc2.txt
+ 1041  head a2t1bc2.txt
+ 1042  vi a2t1bc2.txt
+ 1043  head a2t1bc2.txt >> a2.txt
+ 1044  bc a2t1bc2.txt
+ 1045  bc a2t1bc2.txt >> a2.txt
+ 1046  vi a2.txt
+ 1047  head -n 3 2019-05.csv
+ 1048  grep '^[0-9]\.0,"2019-05-11' 2019-05.csv | cut -d "," -f 17 | sort -nr | head
+ 
+
+Task 2:
+1049  echo "Task 2"
+ 1050  grep '^[0-9]\.0,"2019-05-11' 2019-05.csv | cut -d "," -f 17 | sort -nr | head
+ 1051  grep '^[0-9]\.0,"2019-05-11' 2019-05.csv | cut -d "," -f 17 | sort -nr | head -n 1 >> a2.txt
+
+
+Task 3:
+ 1052  vi a2.txt
+ 1053  echo "Task 3"
+ 1054  head -n 3 2019-05.csv
+ 1055  grep '^[0-9]\..,............................,............................,[3-9]\.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head
+ 1056  grep '^[0-9]\..,............................,............................,[3-9]\.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head >> a2.txt
+ 1057  vi a2.txt
+
+
+Task 4:
+ 1058  echo "Task 4"
+ 1059  head -n 3 2019-05.csv
+ 1060  grep '^[0-9]\.0,"2019-05-20' 2019-05.csv | cut -d "," -f 8 | sort -nr | uniq -c | sort -nr | head -n 3
+ 1061  grep '^[0-9]\.0,"2019-05-20' 2019-05.csv | cut -d "," -f 8 | sort -nr | uniq -c | sort -nr | head -n 3 >> a2.txt
+ 1062  grep '^[0-9]\..,............................,............................,...,.....,...,.,237.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head -n 3
+ 1063  grep '^[0-9]\.0,"2019-05-20............................................................,237.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head -n 3
+ 1064  grep '^[0-9]\.0,"2019-05-20............................................................,237.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head -n 1 >> a2.txt
+ 1065  vi a2.txt
+ 1066  grep '^[0-9]\.0,"2019-05-20............................................................,237.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head -n 3
+ 1067  grep '^[0-9]\.0,"2019-05-20............................................................,237.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head -n 3 >> a2.txt
+ 1068  vi a2.txt
+
+
+Task 5:
+ 1069  echo "Task 5"
+ 1070  grep '^[0-9]\.0"2019' 2019-01.csv > 2019.txt
+ 1071  grep '^[0-9]\.0"2019' 2019-02.csv >> 2019.txt
+ 1072  grep '^[0-9]\.0"2019' 2019-03.csv >> 2019.txt
+ 1073  grep '^[0-9]\.0"2019' 2019-04.csv >> 2019.txt
+ 1074  grep '^[0-9]\.0"2019' 2019-05.csv >> 2019.txt
+ 1075  grep '^[0-9]\.0"2019' 2019-06.csv >> 2019.txt
+ 1076  grep '^[0-9]\.0"2019' 2019-07.csv >> 2019.txt
+ 1077  grep '^[0-9]\.0"2019' 2019-08.csv >> 2019.txt
+ 1078  grep '^[0-9]\.0"2019' 2019-09.csv >> 2019.txt
+ 1079  grep '^[0-9]\.0"2019' 2019-10csv >> 2019.txt
+ 1080  grep '^[0-9]\.0"2019' 2019-10.csv >> 2019.txt
+ 1081  grep '^[0-9]\.0"2019' 2019-11.csv >> 2019.txt
+ 1082  grep '^[0-9]\.0"2019' 2019-12.csv >> 2019.txt
+ 1083  wc -l 2019.txt
+ 1084  vi 2019.txt
+ 1085  grep '^[0-9]\.0"2019' 2019-01.csv > 2019.txt
+ 1086  grep '^[0-9]\.0"2019' 2019-01.csv
+ 1087  head 2019-01.csv
+ 1088  grep '^[0-9]\..,"2019' 2019-01.csv > 2019.txt
+ 1089  grep '^[0-9]\..,"2019' 2019-02.csv >> 2019.txt
+ 1090  grep '^[0-9]\..,"2019' 2019-03.csv >> 2019.txt
+ 1091  grep '^[0-9]\..,"2019' 2019-04.csv >> 2019.txt
+ 1092  grep '^[0-9]\..,"2019' 2019-05.csv >> 2019.txt
+ 1093  grep '^[0-9]\..,"2019' 2019-06.csv >> 2019.txt
+ 1094  grep '^[0-9]\..,"2019' 2019-07.csv >> 2019.txt
+ 1095  grep '^[0-9]\..,"2019' 2019-08.csv >> 2019.txt
+ 1096  grep '^[0-9]\..,"2019' 2019-09.csv >> 2019.txt
+ 1097  grep '^[0-9]\..,"2019' 2019-10.csv >> 2019.txt
+ 1098  grep '^[0-9]\..,"2019' 2019-11.csv >> 2019.txt
+ 1099  grep '^[0-9]\..,"2019' 2019-12.csv >> 2019.txt
+ 1100  wc -l 2019.txt
+ 1101  wc -l 2019.txt >> a2.txt
+ 1102  cut -d "," -f 8 2019.txt | sort -nr | uniq -c | sort -nr | head -n 3
+ 1103  cut -d "," -f 8 2019.txt | sort -nr | uniq -c | sort -nr | head -n 3 >> a2.txt
+ 1104  vi a2.txt
+ 1105  mv a2.txt /mnt/scratch/patricio23fa/cs131/a2/
+ 1106  cd; cd cs131; cd a2
+ 1107  vi a2.txt
+ 1108  history > cmd.log

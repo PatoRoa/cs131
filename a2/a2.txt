@@ -1,15 +1,35 @@
 Assignment 2
 Task 1:
-4509482.36 total amount paid
-252413 trips
-17 average fare
+Total amounts paid by customers
+29.16
+17.8
+55.3
+55.3
+32.25
+15.3
+13.56
+21.96
+14.3
+8.0
+
+Sum ofo total amounts paid by customers
+4509482.36
+
+Number of payments
+252413
+
+Average amount paid by customers
+4509482.36/252413
+17
+
 
 Task 2:
-Highest total amount paid
+Highest total amount paid by customers picked up on May 11, 2019
 1309.8
 
+
 Task 3:
-Top 10 most popular dropoff locations from May 2019
+Top 10 most popular drop off locations among rides with 3+ customers in May 2019
   39909 236.0
   37140 237.0
   36990 161.0
@@ -20,14 +40,19 @@ Top 10 most popular dropoff locations from May 2019
   26782 142.0
   25051 239.0
   24609 234.0
-  12002 237.0
+
 
 Task 4:
-Most popular drop off location from the most popular pickup location on May 20, 2019
-   1055 236.0
+Most popular drop off location among rides from most popular pickup location in May 20, 2019
+    856 236.0
+
 
 Task 5:
-84150976 lines in 2019.txt
+Lines in file with all data from all months
+84150976 2019.txt
 
-Most popular pickup location throughout 2019
+Busiest pickup location in 2019
+Trips Location ID
 3639306 237.0
+3448277 161.0
+3289096 236.0
