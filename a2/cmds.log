@@ -1,0 +1,25 @@
+Task 5:  
+  983  cd taxidata; ls
+  984  grep '^[0-9]\..,"2019' 2019-01.csv > 2019.txt
+  985  grep '^[0-9]\..,"2019' 2019-02.csv >> 2019.txt
+  986  grep '^[0-9]\..,"2019' 2019-03.csv >> 2019.txt
+  987  grep '^[0-9]\..,"2019' 2019-04.csv >> 2019.txt
+  988  grep '^[0-9]\..,"2019' 2019-05.csv >> 2019.txt
+  989  grep '^[0-9]\..,"2019' 2019-06.csv >> 2019.txt
+  990  grep '^[0-9]\..,"2019' 2019-07.csv >> 2019.txt
+  991  grep '^[0-9]\..,"2019' 2019-08.csv >> 2019.txt
+  992  grep '^[0-9]\..,"2019' 2019-09.csv >> 2019.txt
+  993  grep '^[0-9]\..,"2019' 2019-10.csv >> 2019.txt
+  994  grep '^[0-9]\..,"2019' 2019-11.csv >> 2019.txt
+  995  grep '^[0-9]\..,"2019' 2019-12.csv >> 2019.txt
+  996  wc -l 2019.txt
+  997  wc -l 2019.txt >> /mnt/scratch/patricio23fa/cs131/a2/a2.txt
+  998  head -n 3 2019-01.csv
+  999  cut -d "," -f 8 2019.txt > 2019cut.txt; head 2019cut.txt
+ 1000  sort -nr 2019cut.txt > 2019sort.txt; head 2019sort.txt
+ 1001  uniq -c 2019sort.txt > 2019uniq.txt; head 2019uniq.txt
+ 1002  sort -nr 2019uniq.txt > 2019sort2.txt
+ 1003  head 2019sort2.txt
+ 1004  head -n 1 2019sort2.txt >> /mnt/scratch/patricio23fa/cs131/a2/a2.txt
+ 1005  cd; cd cs131; cd a2; vi a2.txt
+ 1006  history > cmds.log

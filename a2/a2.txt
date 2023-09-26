@@ -1,0 +1,33 @@
+Assignment 2
+Task 1:
+4509482.36 total amount paid
+252413 trips
+17 average fare
+
+Task 2:
+Highest total amount paid
+1309.8
+
+Task 3:
+Top 10 most popular dropoff locations from May 2019
+  39909 236.0
+  37140 237.0
+  36990 161.0
+  33678 230.0
+  28506 170.0
+  27895 162.0
+  27485 48.0
+  26782 142.0
+  25051 239.0
+  24609 234.0
+  12002 237.0
+
+Task 4:
+Most popular drop off location from the most popular pickup location on May 20, 2019
+   1055 236.0
+
+Task 5:
+84150976 lines in 2019.txt
+
+Most popular pickup location throughout 2019
+3639306 237.0
