@@ -1,0 +1,49 @@
+  998  ls
+  999  rm script; rm test.txt; ls
+ 1000  cd taxidata
+ 1001  ls
+
+Task 1:
+ 1002  head 2019-11.csv
+ 1003  man grep
+ 1004  grep "^2.0,.*" 2019-11.csv > vendor2.csv
+ 1005  wc vendor2.csv
+ 1006  wc -l vendor2.csv
+
+Task 2:
+ 1007  sed 's/://' 2019-11.csv | head
+ 1008  sed '/:/ s/://' 2019-11.csv | head
+ 1009  sed '/:/ s/://g' 2019-11.csv | head
+ 1010  sed '/:/ s/://g' 2019-11.csv > no-separators.csv | head no-separators.csv
+ 1011  head no-separators.csv
+ 1012  head 2019-11.csv
+ 1013  head no-separators.csv 
+ 1014  sed -i 's/"//g' no-separators.csv; head no-separators.csv
+ 1015  sed -i 's/-//g' no-separators.csv; head no-separators.csv
+
+Task 3: 
+ 1016  sed 's/\.[0-9]*//g' no-separators.csv > no-fractions.csv; head no-fractions.csv 
+ 1017  ls
+ 1018  cd
+ 1019  ls
+ 1020  cd cs131; ls
+ 1021  mkdir ws6
+ 1022  cd; cd taxidata; ls
+ 1023  mv vendor2.csv /mnt/scratch/patricio23fa/cs131/ws6
+ 1024  mv no-fractions.csv /mnt/scratch/patricio23fa/cs131/ws6; mv no-separators.csv /mnt/scratch/patricio23fa/cs131/ws6
+
+Task 4:
+ 1025  ls
+ 1026  cd; cd cs131; cd ws6; ls
+ 1027  history > cmnd.log
+ 1028  vi cmnd.log
+ 1029  rm cmnd.log
+ 1030  history > cmd.log; tail -n 100 > cmnd.log; rm cmd.log; vi cmnd.log
+ 1031  ls
+ 1032  rm cmd.log; rm cmnd.log; history > cmd.log; tail -n 100 cmd.log > cmnd.log; rm cmd.log; vi cmnd.log
+ 1035  vi ws6.txt
+ 1036  head- 10 no-fractions.csv >> ws6.txt
+ 1037  head 10 no-fractions.csv >> ws6.txt
+ 1038  head -n 10 no-fractions.csv >> ws6.txt
+ 1039  vi ws6.txt
+ 1040  history > cmd.log; tail -n 6 cmd.log >> cmnd.log 
