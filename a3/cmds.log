@@ -1,0 +1,186 @@
+Task 1: 
+1001  ls
+ 1002  cd cs131; ls
+ 1003  cd
+ 1004  cd taxidata
+ 1005  ls
+ 1006  touch script.sh
+ 1007  vi script.sh
+ 1008  vi script
+ 1009  awk -F , '{ print $8, $17 }' 2019-08.csv > pu-amount.txt
+ 1010  head pu-amount.txt
+ 1011  vi script
+ 1012  awk -f script pu-amount.txt
+ 1013  vi script
+ 1014  awk -f script pu-amount.txt
+ 1015  vi script
+ 1016  awk -f script pu-amount.txt
+ 1017  vi script
+ 1018  touch a3.txt
+ 1019  vi script
+ 1020  awk -f script pu-amount.txt
+ 1021  vi script
+ 1022  cp /dev/null a3.txt
+ 1023  awk -f script pu-amount.txt >> a3.txt
+ 1024  head a3.txt
+ 1025  cp /dev/null a3.txt
+ 1026  vi script
+ 1027  awk -f script pu-amount.txt
+ 1028  vi script
+ 1029  awk -f script pu-amount.txt
+ 1030  vi script
+ 1031  awk -f script pu-amount.txt
+ 1032  vi script
+ 1033  awk -f script pu-amount.txt
+ 1034  clear
+ 1035  cat pu-amount.txt 
+ 1036  vi script
+ 1037  awk -f script pu-amount.txt >> a3.txt
+ 1038  head a3.txt
+ 1039  vi script
+ 1040  cp /dev/null a3.txt
+ 1041  awk -f script pu-amount.txt
+ 1042  vi script
+ 1043  awk -f script pu-amount.txt
+ 1044  vi script
+ 1045  awk -f script pu-amount.txt
+ 1046  vi script
+ 1047  awk -f script pu-amount.txt
+ 1048  vi script
+ 1049  cp /dev/null a3.txt
+ 1050  awk -f script pu-amount.txt >> a3.txt
+ 1051  head a3.txt
+ 1052  cp /dev/null a3.txt
+ 1053  vi script
+ 1054  awk -f script pu-amount.txt >> a3.txt
+ 1055  head a3.txt
+ 1056  sort -nk 2 a3.txt > a3t1.txt
+ 1057  head a3t1.txt 
+ 1058  sort -nrk 2 a3.txt > a3t1.txt
+ 1059  head a3t1.txt 
+ 1060  mv a3.txt pu-amount-average.txt
+ 1061  head a3.txt
+ 1062  head pu-amount-average.txt
+ 1063  sort -nrk 2 pu-amount-average.txt > a3.txt
+
+Task 2:
+ 1065  head 2019-08.csv
+ 1066  cat script
+ 1067  awk -F , '{ location[$8, $9]+=$17; counter[$8, $9]++} END { for (i in location) { print i, location[i]/counter[i]}}' 2019-08.csv
+ 1068  touch a3t2.txt
+ 1069  awk -F , '{ location[$8, $9]+=$17; counter[$8, $9]++} END { for (i in location) { print i, location[i]/counter[i]}}' 2019-08.csv >> a3t2.txt
+ 1070  head a3t2.txt
+ 1071  ech "" >> a3.txt
+ 1072  echo "" >> a3.txt
+ 1073  vi a3.txt
+ 1074  wc -l a3.txt
+ 1075  vi a3.txt
+ 1076  sort -nrk 2 a3t2.txt >> a3.txt
+ 1077  vi a3.txt
+ 1078  ls
+ 1079  cp /dev/null a3.txt
+ 1080  echo "Task 1:" > a3.txt
+ 1081  head pu-amount-average.txt >> a3.txt; echo "" >> a3.txt; echo "Task 2:" >> a3.txt; sort -nrk 2 a3t2.txt | head >> a3.txt
+ 1082  vi a3.txt
+ 1083  cp /dev/null a3.txt
+ 1084  sort -nrk 2 pu-amount-average.txt | head >> a3.txt; echo "" >> a3.txt; echo "Task 2:" >> a3.txt; sort -nrk 2 a3t2.txt | head >> a3.txt
+ 1085  vi a3.txt
+ 1086  ls
+ 1087  head a3t1.txt
+ 1088  rm pu-amount*.txt
+ 1089  ls
+ 1090  rm script.sh
+
+Task 3:
+ 1091  ls
+ 1092  man gnuplot
+ 1093  mv script a3t1script
+ 1094  vi a3t3script
+ 1095  head 2019-08.csv
+ 1096  ls
+ 1097  touch a3t3.txt
+ 1098  awk -F , '{ passengers[$4]+=$14; counter[$4]++ } END { for (i in passengers) { print i, passengers[i]/counter[i] }}' 2019-08.csv >> a3t3.txt
+ 1099  head a3t3.txt
+ 1100  sort -nrk 2 a3t3.txt > a3t3-new.txt
+ 1101  head a3t3-new.txt 
+ 1102  mv a3t3-new.txt a3t3.txt
+ 1103  head a3t3.txt
+ 1104  vi a3t3.txt
+ 1105  vi a3t3script
+ 1106  load 'a3t3script'
+ 1107  man load
+ 1108  plot a3t3.txt
+ 1109  gnuplot
+ 1110  cat a3t3script
+ 1111  gnuplot
+ 1112  cat a3t3.txt
+ 1113  sort -nk 1 a3t3.txt > a3t3-new.txt
+ 1114  head a3t3-new.txt 
+ 1115  mv a3t3-new.txt a3t3.txt
+ 1116  vi a3t3script
+ 1117  gnuplot
+ 1118  vi a3t3script
+ 1119  vi a3t3script2
+ 1120  gnuplot
+ 1121  ls
+ 1122  rm a3t3script
+ 1123  mv a3t3script2 a3t3script
+
+Task 4:
+ 1124  ls
+ 1125  head 2019-08.csv
+ 1126  awk -F , '{ travel[$5]+=$14; counter[$5]++ } END { for (i in travel) { print i, travel[i]/counter[i] }} 2019-08.csv > a3t4.txt
+
+ 1127  rm a3t4.txt
+ 1128  touch a3t4.txt
+ 1129  awk -F , '{ travel[$5]+=$14; counter[$5]++ } END { for (i in travel) { print i, travel[i]/counter[i] }} 2019-08.csv >> a3t4.txt
+
+ 1130  awk -F , '{ travel[$5]+=$14; counter[$5]++ } END { for (i in travel) { print i, travel[i]/counter[i] }}' 2019-08.csv >> a3t4.txt
+ 1131  head a3t4.txt
+ 1132  vi a3t4.txt
+ 1133  sort -nrk 1 a3t4.txt
+ 1134  sort -nk 1 a3t4.txt
+ 1135  sort -nk 1 a3t4.txt > a3t4-new.txt
+ 1136  mv a3t4-new.txt a3t4.txt
+ 1137  ls
+ 1138  cp a3t3script a3t4script
+ 1139  vi a3t4script
+ 1140  vi a3t4.txt
+ 1141  tail -n 3 a3t4.txt
+ 1142  vi a3t4.txt
+ 1143  vi a3t4script
+ 1144  vi a3t3 script
+ 1145  ls
+ 1146  vi a3t3script
+ 1147  vi a3t4script
+ 1148  rm a3t3.svg
+ 1149  gnuplot
+ 1150  ls
+ 1151  cat a3t3.svg
+ 1152  cat a3t4.svg
+ 1153  clear
+ 1154  head a3t3.txt
+ 1155  cat a3t3.svg
+ 1156  vi a3t3script
+ 1157  vi a3t4script
+ 1158  vi a3t3script
+ 1159  gnuplot
+ 1160  cat a3t3.svg
+ 1161  gnuplot
+ 1162  cat a3t4.svg
+ 1163  head a3t4.txt
+ 1164  vi a3t3script
+ 1165  vi a3t4script
+ 1166  rm a3t3.svg; rm a3t4.svg
+ 1167  gnuplot
+ 1168  cat a3t3.svg
+ 1169  ls
+ 1170  mv *.txt /mnt/scratch/patricio23fa/cs131/a3/
+ 1171  mv *script /mnt/scratch/patricio23fa/cs131/a3/
+ 1172  ls
+ 1173  mv *.svg /mnt/scratch/patricio23fa/cs131/a3/
+ 1174  ls
+ 1175  cd
+ 1176  cd cs131; cd a3
+ 1177  ls
+ 1178  history > c.log

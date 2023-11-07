@@ -1,0 +1,1002 @@
+  179  cd
+  180  cd taxidata
+  181  bc a2t1paste.txt > a2t1bc.txt
+  182  wc -l a2t1cut.txt >> a2t1bc.txt
+  183  vi a2t1bc.txt
+  184  bc a2t1bc.txt > a2t1bc2.txt
+  185  head a2t1bc2.txt
+  186  head a2t1.txt
+  187  grep '...,"2019-05-11' a2t1.txt
+  188  cleat
+  189  clear
+  190  grep '...,"2019-05-11' a2t1.txt
+  191  ls
+  192  rm a2t1.txt
+  193  ls
+  194  rm a2t1bc2.txt
+  195  ls
+  196  rm a2t1bc.txt
+  197  ls
+  198  rm a2t1cut.txt
+  199  rm a2t1paste.txt
+  200  ls
+  201  rm cut1905.txt
+  202  rm task1cut.txt
+  203  rm task1sort.txt
+  204  rm task1uniq.txt
+  205  ls
+  206  man grep
+  207  grep '^[0-9]\.0,"2019-05-11' 2019-05.csv
+  208  grep '^[0-9]\.0,"2019-05-11' 2019-05.csv > a2t1grep.txt
+  209  head a2t1grep.txt
+  210  cut -d "," -f 17 a2t1grep.txt
+  211  cut -d "," -f 17 a2t1grep.txt > a2t1cut.txt
+  212  head a2t1grep.txt
+  213  head a2t1cut.txt
+  214  paste -s -d+ a2t1cut.txt > a2t1paste.txt; head a2t1paste.txt
+  215  bc a2t1paste.txt
+  216  bc a2t1paste.txt > /mnt/scratch/patricio23fa/cs131/a2/a2.txt
+  217  wc -l a2t1cut.txt
+  218  wc -l a2t1cut.txt >> /mnt/scratch/patricio23fa/cs131/a2/a2.txt
+  219  bc a2t1paste.txt > a2t1bc.txt
+  220  wc -l a2t1cut.txt >> a2t1bc.txt
+  221  head a2t1bc.txt
+  222  vi a2t1bc.txt
+  223  bc a2t1bc.txt
+  224  bc a2t1bc.txt >> /mnt/scratch/patricio23fa/cs131/a2/a2.txt
+  225  cd
+  226  cd cs131; cd a2; vi a2.txt
+  227  cd
+  228  cd taxidata
+  229  head a2t1cut.txt
+  230  man sort
+  231  sort -nr a2t1cut.txt
+  232  sort -nr a2t1cut.txt > a2t1sort.txt
+  233  head a2t1sort.txt
+  234  man uniq
+  235  head -n a2t1sort.txt
+  236  head -n 1 a2t1sort.txt
+  237  head -n 1 a2t1sort.txt >> /mnt/scratch/patricio23fa/cs131/a2/a2.txt
+  238  cd
+  239  cd cs131; cd a2; vi a2.txt
+  240  cd
+  241  cd taxidata
+  242  head 2019-05.csv
+  243  cd taxidata
+  244  grep '^...,............................,............................,[3-9]\.0' 2019-05.csv
+  245  grep '^...,............................,............................,[3-9]\.0' 2019-05.csv > a2t3grep.txt
+  246  cd taxidata; ls
+  247  grep '^[0-9]\..,"2019' 2019-01.csv > 2019.txt
+  248  grep '^[0-9]\..,"2019' 2019-02.csv >> 2019.txt
+  249  grep '^[0-9]\..,"2019' 2019-03.csv >> 2019.txt
+  250  grep '^[0-9]\..,"2019' 2019-04.csv >> 2019.txt
+  251  grep '^[0-9]\..,"2019' 2019-05.csv >> 2019.txt
+  252  grep '^[0-9]\..,"2019' 2019-06.csv >> 2019.txt
+  253  grep '^[0-9]\..,"2019' 2019-07.csv >> 2019.txt
+  254  grep '^[0-9]\..,"2019' 2019-08.csv >> 2019.txt
+  255  grep '^[0-9]\..,"2019' 2019-09.csv >> 2019.txt
+  256  grep '^[0-9]\..,"2019' 2019-10.csv >> 2019.txt
+  257  grep '^[0-9]\..,"2019' 2019-11.csv >> 2019.txt
+  258  grep '^[0-9]\..,"2019' 2019-12.csv >> 2019.txt
+  259  wc -l 2019.txt
+  260  wc -l 2019.txt >> /mnt/scratch/patricio23fa/cs131/a2/a2.txt
+  261  head -n 3 2019-01.csv
+  262  cut -d "," -f 8 2019.txt > 2019cut.txt; head 2019cut.txt
+  263  sort -nr 2019cut.txt > 2019sort.txt; head 2019sort.txt
+  264  uniq -c 2019sort.txt > 2019uniq.txt; head 2019uniq.txt
+  265  sort -nr 2019uniq.txt > 2019sort2.txt
+  266  head 2019sort2.txt
+  267  head -n 1 2019sort2.txt >> /mnt/scratch/patricio23fa/cs131/a2/a2.txt
+  268  cd; cd cs131; cd a2; vi a2.txt
+  269  history > cmds.log
+  270  tail -n 200 cmds.log
+  271  tail -n 100 cmds.log > cmd.log
+  272  rm cmds.log
+  273  tail -n 100 cmd.log > cmds.log
+  274  rm cmd.log
+  275  vi cmds.log
+  276  vi a2.txt
+  277  vi cmds.log
+  278  cd ..
+  279  ls
+  280  git status
+  281  git add a2/
+  282  git status
+  283  git commit -m "Upload a2.txt and cmds.log"
+  284  git push
+  285  cd taxidata
+  286  grep '^...,............................,............................,[3-9]\.0' 2019-05.csv > a2t3grep.txt
+  287  head a2t3grep.txt
+  288  head -n 3 2019-05.csv
+  289  cut -d "," -f 9 a2t3grep.txt > a2t3cut.txt; head a2t3cut.txt
+  290  sort -nr a2t3cut.txt > a2t3sort.txt; head a2t3sort.txt
+  291  uniq -c a2t3sort.txt > a2t3uniq.txt; head a2t3uniq.txt
+  292  sort -nr a2t3uniq.txt 
+  293  sort -nr a2t3uniq.txt > a2t3sort2.txt; head a2t3sort2.txt
+  294  head a2t3sort2.txt >> /mnt/scratch/patricio23fa/cs131/a2/a2.txt
+  295  cd
+  296  cd cs131; cd a2; vi a2.txt
+  297  vi a2.txt
+  298  cd
+  299  cd taxidata
+  300  head 2019-05.csv
+  301  grep '^[0-9]\.0,"2019-05-20' 2019-05.csv
+  302  grep '^[0-9]\.0,"2019-05-20' 2019-05.csv > a2t4grep.txt
+  303  head 2019-05.csv
+  304  cut -d "," -f 8 a2t4grep.txt > a2t4cut.txt; head a2t4cut.txt
+  305  head a2t4grep.txt
+  306  head a2t4cut.txt
+  307  sort -nr a2t4cut.txt > a2t4sort.txt; head a2t4sort.txt
+  308  uniq -c a2t4sort.txt > a2t4uniq.txt; head a2t4uniq.txt
+  309  sort -nr a2t4uniq.txt > a2t4sort2.txt; head a2t4sort2.txt
+  310  head -n 1 a2t4sort2.txt
+  311  head -n 1 a2t4sort2.txt >> /mnt/scratch/patricio23fa/cs131/a2/a2.txt
+  312  head a2t4grep.txt
+  313  grep '^...,............................,............................,...,....,...,.,237\.0' a2t4grep.txt > a2t4grep2.txt; head a2t4grep2.txt
+  314  cut -d "," -f 9 a2t4grep2.txt > a2t4cut2.txt; head a2t4cut2.txt
+  315  cd taxidata
+  316  sort -nr a2t4cut2.txt > a2t4sort3.txt; head a2t4sort3.txt
+  317  uniq -c a2t4sort3.txt > a2t4uniq2.txt; head a2t4uniq2.txt
+  318  sort -nr a2t4uniq2.txt > a2t4sort4.txt; head a2t4sort4.txt
+  319  head -n 1 a2t4sort4.txt >> /mnt/scratch/patricio23fa/cs131/a2/a2.txt
+  320  cd
+  321  cd cs131; cd a2; vi a2.txt
+  322  head a2.txt
+  323  vi a2.txt
+  324  cd taxidata
+  325  cd
+  326  cd taxidata
+  327  ls
+  328  rm *.txt; ls
+  329  cd taxidata
+  330  la
+  331  ls
+  332  rm *.txt
+  333  ls
+  334  head 2019-05.csv
+  335  grep '^[0-9]\..,"2019-05-11' 2019-05.csv | cut -d "," -f 17 > a2t1total.txt
+  336  head a2t1total.txt
+  337  paste -s -d+ a2t1total.txt > a2t1paste.txt; head a2t1paste.txt
+  338  bc a2t1paste.txt
+  339  bc a2t1paste.txt > a2t1bc.txt
+  340  grep '^[0-9]\..,"2019-05-11' 2019-05.csv | cut -d "," -f 17 > a2t1total.txt | wc -l
+  341  grep '^[0-9]\..,"2019-05-11' 2019-05.csv | cut -d "," -f 17 | wc -l
+  342  grep '^[0-9]\..,"2019-05-11' 2019-05.csv | cut -d "," -f 17 | wc -l >> a2t1bc.txt
+  343  vi a2t1bc.txt
+  344  head a2t1bc.txt
+  345  bc a2t1bc.txt
+  346  echo "Time for Task 2"
+  347  head 2019-05.csv
+  348  grep '^[0-9]\..,"2019-05-11' 2019-05.csv | cut -d "," -f 17 | sort -nr
+  349  grep '^[0-9]\..,"2019-05-11' 2019-05.csv | cut -d "," -f 17 | sort -nr | head -n 3
+  350  echo "Onto Task 3"
+  351  head -n 3 2019-05.csv
+  352  grep '^[0-9]\..,............................,............................,[3-9]\.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head
+  353  rm /mnt/scratch/patricio23fa/cs131/a2/a2.txt
+  354  rm /mnt/scratch/patricio23fa/cs131/a2/cmds.log
+  355  echo "Task 1 time"
+  356  grep '^[0-9]\..,"2019-05-11' 2019-05.csv | cut -d "," -f 17 > a2t1total.txt
+  357  grep '^[0-9]\..,"2019-05-11' 2019-05.csv | cut -d "," -f 17
+  358  ls
+  359  rm *.txt
+  360  grep '^[0-9]\..,"2019-05-11' 2019-05.csv | cut -d "," -f 17 | head
+  361  echo "Task 1"
+  362  grep '^[0-9]\..,"2019-05-11' 2019-05.csv | cut -d "," -f 17 > a2t1bc.txt; head a2t1bc.txt > a2.txt; head a2.txt
+  363  rm a2.txt
+  364  grep '^[0-9]\..,"2019-05-11' 2019-05.csv | cut -d "," -f 17 > a2t1bc.txt; head a2t1bc.txt > a2.txt; head a2.txt
+  365  paste -s -d+ a2t1bc.txt | bc
+  366  paste -s -d+ a2t1bc.txt | bc >> a2.txt
+  367  head a2t1bc.txt
+  368  wc -l a2t1bc.txt
+  369  wc -l a2t1bc.txt >> a2.txt
+  370  paste -s -d+ a2t1bc.txt | bc > a2t1bc2.txt
+  371  wc -l a2t1bc.txt >> a2t1bc2.txt
+  372  head a2t1bc2.txt
+  373  vi a2t1bc2.txt
+  374  head a2t1bc2.txt >> a2.txt
+  375  bc a2t1bc2.txt
+  376  bc a2t1bc2.txt >> a2.txt
+  377  vi a2.txt
+  378  head -n 3 2019-05.csv
+  379  grep '^[0-9]\.0,"2019-05-11' 2019-05.csv | cut -d "," -f 17 | sort -nr | head
+  380  echo "Task 2"
+  381  grep '^[0-9]\.0,"2019-05-11' 2019-05.csv | cut -d "," -f 17 | sort -nr | head
+  382  grep '^[0-9]\.0,"2019-05-11' 2019-05.csv | cut -d "," -f 17 | sort -nr | head -n 1 >> a2.txt
+  383  vi a2.txt
+  384  echo "Task 3"
+  385  head -n 3 2019-05.csv
+  386  grep '^[0-9]\..,............................,............................,[3-9]\.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head
+  387  grep '^[0-9]\..,............................,............................,[3-9]\.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head >> a2.txt
+  388  vi a2.txt
+  389  echo "Task 4"
+  390  head -n 3 2019-05.csv
+  391  grep '^[0-9]\.0,"2019-05-20' 2019-05.csv | cut -d "," -f 8 | sort -nr | uniq -c | sort -nr | head -n 3
+  392  grep '^[0-9]\.0,"2019-05-20' 2019-05.csv | cut -d "," -f 8 | sort -nr | uniq -c | sort -nr | head -n 3 >> a2.txt
+  393  grep '^[0-9]\..,............................,............................,...,.....,...,.,237.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head -n 3
+  394  grep '^[0-9]\.0,"2019-05-20............................................................,237.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head -n 3
+  395  grep '^[0-9]\.0,"2019-05-20............................................................,237.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head -n 1 >> a2.txt
+  396  vi a2.txt
+  397  grep '^[0-9]\.0,"2019-05-20............................................................,237.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head -n 3
+  398  grep '^[0-9]\.0,"2019-05-20............................................................,237.0' 2019-05.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head -n 3 >> a2.txt
+  399  vi a2.txt
+  400  echo "Task 5"
+  401  grep '^[0-9]\.0"2019' 2019-01.csv > 2019.txt
+  402  grep '^[0-9]\.0"2019' 2019-02.csv >> 2019.txt
+  403  grep '^[0-9]\.0"2019' 2019-03.csv >> 2019.txt
+  404  grep '^[0-9]\.0"2019' 2019-04.csv >> 2019.txt
+  405  grep '^[0-9]\.0"2019' 2019-05.csv >> 2019.txt
+  406  grep '^[0-9]\.0"2019' 2019-06.csv >> 2019.txt
+  407  grep '^[0-9]\.0"2019' 2019-07.csv >> 2019.txt
+  408  grep '^[0-9]\.0"2019' 2019-08.csv >> 2019.txt
+  409  grep '^[0-9]\.0"2019' 2019-09.csv >> 2019.txt
+  410  grep '^[0-9]\.0"2019' 2019-10csv >> 2019.txt
+  411  grep '^[0-9]\.0"2019' 2019-10.csv >> 2019.txt
+  412  grep '^[0-9]\.0"2019' 2019-11.csv >> 2019.txt
+  413  grep '^[0-9]\.0"2019' 2019-12.csv >> 2019.txt
+  414  wc -l 2019.txt
+  415  vi 2019.txt
+  416  grep '^[0-9]\.0"2019' 2019-01.csv > 2019.txt
+  417  grep '^[0-9]\.0"2019' 2019-01.csv
+  418  head 2019-01.csv
+  419  grep '^[0-9]\..,"2019' 2019-01.csv > 2019.txt
+  420  grep '^[0-9]\..,"2019' 2019-02.csv >> 2019.txt
+  421  grep '^[0-9]\..,"2019' 2019-03.csv >> 2019.txt
+  422  grep '^[0-9]\..,"2019' 2019-04.csv >> 2019.txt
+  423  grep '^[0-9]\..,"2019' 2019-05.csv >> 2019.txt
+  424  grep '^[0-9]\..,"2019' 2019-06.csv >> 2019.txt
+  425  grep '^[0-9]\..,"2019' 2019-07.csv >> 2019.txt
+  426  grep '^[0-9]\..,"2019' 2019-08.csv >> 2019.txt
+  427  grep '^[0-9]\..,"2019' 2019-09.csv >> 2019.txt
+  428  grep '^[0-9]\..,"2019' 2019-10.csv >> 2019.txt
+  429  grep '^[0-9]\..,"2019' 2019-11.csv >> 2019.txt
+  430  grep '^[0-9]\..,"2019' 2019-12.csv >> 2019.txt
+  431  wc -l 2019.txt
+  432  wc -l 2019.txt >> a2.txt
+  433  cut -d "," -f 8 2019.txt | sort -nr | uniq -c | sort -nr | head -n 3
+  434  cut -d "," -f 8 2019.txt | sort -nr | uniq -c | sort -nr | head -n 3 >> a2.txt
+  435  vi a2.txt
+  436  mv a2.txt /mnt/scratch/patricio23fa/cs131/a2/
+  437  cd; cd cs131; cd a2
+  438  vi a2.txt
+  439  history > cmd.log
+  440  tail -n 100 cmd.log
+  441  tail -n 150 cmd.log > cmds.log
+  442  vi cmds.log
+  443  rm cmd.log
+  444  cd ..
+  445  git status
+  446  git add a2/
+  447  git status
+  448  git commit -m "Redo a2.txt and cmds.log"
+  449  git push
+  450  ls
+  451  cd taxidata; ls
+  452  rm *txt
+  453  ls
+  454  mkdir ws5
+  455  ls
+  456  head 2019-08.csv
+  457  grep '[0-9]\.0,............................,............................,.\..,.\..,.\..,.,234\.0' 2019-08.csv | cut -d "," -f 9 | head 100
+  458  grep '[0-9]\.0,............................,............................,.\..,.\..,.\..,.,234\.0' 2019-08.csv | cut -d "," -f 9 | head -n 100
+  459  grep '[0-9]\.0,............................,............................,.\..,.\..,.\..,.,234\.0' 2019-08.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head 100
+  460  grep '[0-9]\.0,............................,............................,.\..,.\..,.\..,.,234\.0' 2019-08.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head -n 100
+  461  grep '[0-9]\.0,............................,............................,.\..,.\..,.\..,.,234\.0' 2019-08.csv | cut -d "," -f 9 | sort -nr | uniq | sort -nr | head -n 100
+  462  grep '[0-9]\.0,............................,............................,.\..,.\..,.\..,.,234\.0' 2019-08.csv | cut -d "," -f 9 | sort -nr | uniq | sort -nr | tail -n 100
+  463  grep '[0-9]\.0,............................,............................,.\..,.\..,.\..,.,234\.0' 2019-08.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head -n 100 > /ws5/ws5.txt
+  464  grep '[0-9]\.0,............................,............................,.\..,.\..,.\..,.,234\.0' 2019-08.csv | cut -d "," -f 9 | sort -nr | uniq -c | sort -nr | head -n 100 > ws5.txt
+  465  grep '[0-9]\.0,............................,............................,.\..,.\..,.\..,.,234\.0,1\.0' 2019-08.csv > 1.0.txt
+  466  head 1.0.txt
+  467  grep '[0-9]\.0,............................,............................,.\..,.\..,.\..,.,234\.0,3\.0' 2019-08.csv > 3.0.txt
+  468  grep '[0-9]\.0,............................,............................,.\..,.\..,.\..,.,234\.0,48\.0' 2019-08.csv > 48.0.txt
+  469  head 48.txt
+  470  head 48.0.txt
+  471  grep '[0-9]\.0,............................,............................,.\..,.\..,.\..,.,234\.0,223\.0' 2019-08.csv > 223.0.txt
+  472  head 223.0.txt
+  473  ls
+  474  echo "1.0.txt word count:" >> ws5.txt
+  475  wc -l 1.0.txt
+  476  wc -l 1.0.txt >> ws5.txt
+  477  echo "3.0.txt word count:" >> ws5.txt; wc -l 3.0.txt >> ws5.txt
+  478  echo "48.0.txt word count:" >> ws5.txt; wc -l 48.0.txt >> ws5.txt
+  479  echo "223.0.txt word count:" >> ws5.txt; wc -l 223.0.txt >> ws5.txt
+  480  head ws5.txt
+  481  vi ws5.txt
+  482  les ws5.txt
+  483  less ws5.txt
+  484  cd; cd cs131; ls
+  485  mkdir ws5
+  486  ls
+  487  mkdir do234
+  488  ls
+  489  rmdir do234; cd ws5; mkdir do234
+  490  ls
+  491  cd; cd taxidataset
+  492  cd; cd taxidata
+  493  ls
+  494  cd ws5
+  495  ls
+  496  cd ..
+  497  rmdir ws5
+  498  man mv
+  499  mv 1.0.txt /mnt/scratch/patricio23fa/cs131/ws5/do234/
+  500  mv 3.0.txt /mnt/scratch/patricio23fa/cs131/ws5/do234/
+  501  mv 48.0.txt /mnt/scratch/patricio23fa/cs131/ws5/do234/
+  502  mv 223.0.txt /mnt/scratch/patricio23fa/cs131/ws5/do234/
+  503  mv ws5.txt /mnt/scratch/patricio23fa/cs131/ws5/
+  504  ls
+  505  cd; cd cs131; cd ws5
+  506  ls
+  507  history | tail
+  508  history | tail -n 100 > cmds.log
+  509  vi cmds.log
+  510  ls
+  511  cd; cd cs131
+  512  git status
+  513  git add ws5
+  514  git commit -m "Upload ws5.txt and cmds.log"
+  515  git push
+  516  echo ./
+  517  echo 
+  518  echo "./"
+  519  find ./ type f
+  520  find ./ -type f
+  521  man find
+  522  exit
+  523  man more
+  524  man less
+  525  ls
+  526  cd cs131; cd ws5
+  527  ls
+  528  more ws5.txt
+  529  less ws5.txt
+  530  most ws5.txt
+  531  head -5 ws5.txt
+  532  head -n 5 ws5.txt
+  533  vi ws5.txt
+  534  cd
+  535  ls
+  536  ls -A
+  537  touch *.txt
+  538  rm *; ls
+  539  touch .bash_profile
+  540  ls
+  541  exit
+  542  ls
+  543  ls -A
+  544  cd cs131;cd ws5; vi ws5.txt
+  545  vi ws5.txt
+  546  exit
+  547  echo $HOME
+  548  echo $(HOME)
+  549  echo "$HOME"
+  550  echo "$(pwd)"
+  551  cd cs131
+  552  echo "$HOME"
+  553  echo "$pwd"
+  554  echo "$(pwd)"
+  555  echo pwd
+  556  echo $pwd
+  557  echo 'HOME'
+  558  echo "HOME"
+  559  echo "`pwd`"
+  560  echo $pwd
+  561  cd
+  562  printevn
+  563  printenv
+  564  printenv | more
+  565  printenv
+  566  echo '$(pwd)'; echo "$(pwd)"
+  567  man export
+  568  cd /etc/passwd
+  569  cd /etc/shadow
+  570  cd ./etc/shadow
+  571  cd ..; ls
+  572  cd root; ls
+  573  cd etc; ls
+  574  cd passwd; ls
+  575  head passwd
+  576  head shadow
+  577  cd
+  578  ls
+  579  cd cs131; cd ws5
+  580  ls -l
+  581  cd
+  582  man usersadd
+  583  man useradd
+  584  man userdel
+  585  man groupadd
+  586  man groupdel
+  587  man usermod
+  588  ls
+  589  cd cs131; cd ws5; ls
+  590  ls -l ws5.txt
+  591  man chmod
+  592  man find
+  593  stat ws5.txt
+  594  man stat
+  595  man fstat
+  596  fstat ws5.txt
+  597  man mv
+  598  man mkdir
+  599  man cp
+  600  ps
+  601  man ps
+  602  ps aux | grep init
+  603  ps -afjx | grep init
+  604  ps -afjx
+  605  echo $?
+  606  printenv | less
+  607  find -name lol.txt
+  608  echo $?
+  609  ps
+  610  top
+  611  man top
+  612  cat lol.txt
+  613  echo $?
+  614  man who
+  615  who
+  616  man lp
+  617  ls
+  618  cd cs131; cd ws5; vi ws5.txt
+  619  vi lol.txt
+  620  ls
+  621  cd lol
+  622  cd lol 2> error.txt
+  623  ls
+  624  less error.txt
+  625  rm error.txt
+  626  cd ..
+  627  ls
+  628  cd ws5 2> error.txt
+  629  ls
+  630  cd ..
+  631  ls
+  632  less error.txt
+  633  ls
+  634  rm error.txt
+  635  ls
+  636  cd
+  637  ls
+  638  touch lol.txt
+  639  stat lol.txt
+  640  echo "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA" > lol.txt
+  641  stat lol.txt
+  642  cd cs131
+  643  man ls
+  644  ls -latr
+  645  man ls
+  646  ls
+  647  cd ws5
+  648  cd cs131; cd ws5
+  649  for i in ws5.txt; do echo "$i"; done
+  650  for i in $(cat ws5.txt); do echo "$i"; done
+  651  ls
+  652  cd cs131
+  653  cd .
+  654  cd ..
+  655  cd cs131
+  656  git status
+  657  man tee
+  658  ls
+  659  echo "tee test" | tee teetest.txt
+  660  less teetest.txt
+  661  rm teetest.txt
+  662  man trap
+  663  trap
+  664  trap -l
+  665  man time
+  666  man disown
+  667  man renice
+  668  ls
+  669  rm lol.txt
+  670  ls
+  671  awk 'BEGIN{FS=","} {print NR, $4}' /taxidata/2019-01.csv
+  672  awk 'BEGIN{FS=","} {print NR, $4}' taxidata/2019-01.csv
+  673  head -n 3 taxidata/2019-01.csv
+  674  touch script
+  675  vi script
+  676  awk -f script small-data.csv
+  677  awk -f script taxidata/2019-01.csv
+  678  cat script
+  679  exit
+  680  ls
+  681  touch test.txt
+  682  vi test.txt
+  683  cat test.txt
+  684  sed '1,4 s/San Jose/San Geronimo &/' test.txt; cat test.txt
+  685  cat test.txt
+  686  sed '1,4 s/San Jose/Seronimo &/' test.txt; cat test.txt
+  687  ls
+  688  cat test.txt
+  689  sed 's/\(Jose\) \(Pedro\)/very \2 and Geronimo \3/' test.txt; cat test.txt
+  690  sed 's/\(Jose\) \(Diego\)/Pedro \1 and Geronimo \2/' test.txt; cat test.txt
+  691  sed 's/\(Jose\)/Pedro \1/' test.txt; cat test.txt
+  692  cat test.txt
+  693  sed 's/\(Jose\)/Pedro \2/' test.txt; cat test.txt
+  694  sed 's/\(Jose\) \(Francisco\)/Pedro \1 and Geronimo \2/' test.txt
+  695  sed 's/\(San\) \(Jose\)/Saint \1 and Joseph \2/' test.txt
+  696  sed 's/\(San\) \(Jose\) \(Diego\)/\1to Pedro \2 de \3/' test.txt
+  697  sed 's/\(San\) \(Jose\) \(Diego\)/\1 to Pedro \2 de \3/' test.txt
+  698  sed 's/\(San\) \(Jose\) \(Diego\)/ \1 to Pedro \2 de \3/' test.txt
+  699  sed 's/\(San\) \(Jose\)/\1to Pedro \2 de Domingo/' test.txt
+  700  sed 's/\(San\) \(Jose\) \(Diego\)/ \1 to Pedro \2 de \3/' test.txt
+  701  sed 's/\(San\) \(Jose\) \(Diego\)/\1to Pedro \2 de \3/' test.txt
+  702  sed 's/\(San\) \(Jose\) \(Diego\)/\1to Pedro \2 de Domingo/' test.txt
+  703  sed 's/\(San\) \(Jose\) \(Diego\)/\1 to Pedro \2 de Domingo/' test.txt
+  704  sed 's/\(San\) \(Jose\) \(Diego\)/ \1 to Pedro \2 de Domingo/' test.txt
+  705  sed 's/\(San\) \(Jose\)/\1to Pedro \2 de Domingo/' test.txt
+  706  clear
+  707  cat test.txt
+  708  sed '/Jose/ a\fi' test.txt
+  709  sed '/Jose/ a\fi\' test.txt
+  710  sed '/Jose/ a fi' test.txt
+  711  cat test.txt
+  712  sed '/Jose/ a/ fi' test.txt
+  713  sed '/Jose/ a a\ b\ c' test.txt
+  714  sed '/Jose/ a a\ b\ c\' test.txt
+  715  sed '/Jose/ a a\ b\ c\ dodo' test.txt
+  716  clear
+  717  cat test.txt
+  718  sed '/Jose/ i balls
+  719  sed '/Jose/ i balls' test.txt
+  720  clear
+  721  cat test.txt
+  722  sed '/Jose/ p' test.txt
+  723  sed -n '/Jose/ p' test.txt
+  724  sed -n '/Jose/ =' test.txt
+  725  cat test.txt
+  726  sed '/Francisco/ q' test.txt
+  727  sed '/San Francisco/ w Francisco' test.txt
+  728  cat Francisco.txt
+  729  ls
+  730  cat Francisco
+  731  rm Francisco
+  732  clear
+  733  cat test.txt
+  734  sed 
+  735  clear
+  736  sed
+  737  clear
+  738  cat test.txt
+  739  sed 's/Jose/Pedro/w Pedro.txt' test.txt; cat Pedro.txt
+  740  ls
+  741  rm Pedro.txt
+  742  clear
+  743  cat test.txt
+  744  sed '/San/ n s/Jose/Geronimo/
+  745  sed '/San/ n s/Jose/Geronimo/' test.txt
+  746  sed '/San/{ n s/Jose/Geronimo/}' test.txt
+  747  sed '/San/ { n s/Jose/Geronimo/}' test.txt
+  748  sed '/San/ n s/Jose/Geronimo/' test.txt
+  749  sed '/San/n s/Jose/Geronimo/' test.txt
+  750  sed '/San/ {n; s/Jose/Geronimo/}' test.txt
+  751  sed '/San/ n' test.txt
+  752  sed '/San/ {n; Pedro}' test.txt
+  753  sed '/San/ {n;Pedro}' test.txt
+  754  sed '/San/ {n;s/San Jose/Pedro/}' test.txt
+  755  man awk
+  756  awk 'BEGIN {print "balls"} //' test.txt
+  757  awk 'BEGIN {print "balls"}' test.txt
+  758  awk 'BEGIN {print "balls"} // EDN {print "dogs"}' test.txt
+  759  awk 'BEGIN {print "balls"} // ENd {print "dogs"}' test.txt
+  760  awk 'BEGIN {print "balls"} // END {print "dogs"}' test.txt
+  761  awk 'END {print "dogs"}' test.txt
+  762  awk 'BEGIN {print $0} // END {print "dogs"}' test.txt
+  763  awk '{print $0}' test.txt
+  764  awk '{print $2}' test.txt
+  765  ls
+  766  rm script; rm test.txt; ls
+  767  cd taxidata
+  768  ls
+  769  head 2019-11.csv
+  770  man grep
+  771  grep "^2.0,.*" 2019-11.csv > vendor2.csv
+  772  wc vendor2.csv
+  773  wc -l vendor2.csv
+  774  sed 's/://' 2019-11.csv | head
+  775  sed '/:/ s/://' 2019-11.csv | head
+  776  sed '/:/ s/://g' 2019-11.csv | head
+  777  sed '/:/ s/://g' 2019-11.csv > no-separators.csv | head no-separators.csv
+  778  head no-separators.csv
+  779  head 2019-11.csv
+  780  head no-separators.csv 
+  781  sed -i 's/"//g' no-separators.csv; head no-separators.csv
+  782  sed -i 's/-//g' no-separators.csv; head no-separators.csv 
+  783  sed 's/\.[0-9]*//g' no-separators.csv > no-fractions.csv; head no-fractions.csv 
+  784  ls
+  785  cd
+  786  ls
+  787  cd cs131; ls
+  788  mkdir ws6
+  789  cd; cd taxidata; ls
+  790  mv vendor2.csv /mnt/scratch/patricio23fa/cs131/ws6
+  791  mv no-fractions.csv /mnt/scratch/patricio23fa/cs131/ws6; mv no-separators.csv /mnt/scratch/patricio23fa/cs131/ws6
+  792  ls
+  793  cd; cd cs131; cd ws6; ls
+  794  history > cmnd.log
+  795  vi cmnd.log
+  796  rm cmnd.log
+  797  history > cmd.log; tail -n 100 > cmnd.log; rm cmd.log; vi cmnd.log
+  798  ls
+  799  rm cmd.log; rm cmnd.log; history > cmd.log; tail -n 100 cmd.log > cmnd.log; rm cmd.log; vi cmnd.log
+  800  vi cmnd.log
+  801  echo "Worksheet 6" > ws6.txt; echo "Task 1:" >> ws6.txt; wc vendor2.csv >> ws6.txt; echo "Task 2:" >> ws6.txt; head -n 10 no-separators.csv >> ws6.txt; echo "Task 3:" >> ws6.txt; head -n 10 no-fractions >> ws6.txt
+  802  vi ws6.txt
+  803  head- 10 no-fractions.csv >> ws6.txt
+  804  head 10 no-fractions.csv >> ws6.txt
+  805  head -n 10 no-fractions.csv >> ws6.txt
+  806  vi ws6.txt
+  807  history > cmd.log; tail -n 6 cmd.log >> cmnd.log 
+  808  vi cmnd.log
+  809  rm cmd.log
+  810  ls
+  811  cd ..
+  812  git status
+  813  git add ws6/
+  814  git add ws6/ws6.txt; git add ws6/cmnd.log
+  815  git commit -m "Upload ws6"
+  816  git push
+  817  ls
+  818  cd taxidata; ls
+  819  head 2019-12.csv
+  820  touch results.txt
+  821  awk -F , '{$11 >= 10 ? print $14}' 2019-12.csv
+  822  awk -F , '{$11 >= 10 ? print $14 : continue}' 2019-12.csv
+  823  awk -F , '{$11 >= 10 ? print $14' 2019-12.csv
+  824  awk -F , '{$11 >= 10 ? print $14}' 2019-12.csv
+  825  awk -F , '{if ($11 >= 10); print $14}' 2019-12.csv
+  826  head 2019-12.csv 
+  827  awk -F , '{if ($11 >= 10); print $14}' 2019-12.csv > results.txt; head
+  828  rm results.txt
+  829  touch results.txt
+  830  awk -F , '{if ($11 >= 10); print $14}' 2019-12.csv >> results.txt; head results.txt
+  831  awk -F , '{ if ($11 >= 10) {print $14} }' 2019-12.csv >> results.txt; head results.txt
+  832  rm results.txt
+  833  touch results.txt
+  834  awk -F , '{ if($11 >= 10) {print $14} }' 2019-12.csv >> results.txt; head results.txt
+  835  sort -n results.txt > results.txt; head results.txt
+  836  head results.txt
+  837  vi results.txt
+  838  awk -F , '{ if($11 >= 10) {print $14} }' 2019-12.csv >> results.txt; head results.txt
+  839  rm results.txt
+  840  touch results.txt
+  841  awk -F , '{ if($11 >= 10) {print $14} }' 2019-12.csv >> results.txt; head results.txt
+  842  sort -n results.txt > results2.txt
+  843  head results2.txt
+  844  unic -c results2.txt > results.txt
+  845  uniq -c results2.txt > results.txt
+  846  head results.txt
+  847  vi results.txt
+  848  sort -n results.txt > results2.txt
+  849  results2.txt > results.txt; rm results2.txt
+  850  cat results2.txt > results.txt; rm results2.txt
+  851  sort -n results.txt > results2.txt
+  852  uniq -c results2.txt > results.txt
+  853  head results.txt
+  854  ls
+  855  rm results.txt; rm results2.txt
+  856  touch file.txt
+  857  grep ^[0-9].* 2019-12.csv > data.txt; awk -F , '{ if($11 >= 10) {print $14} }' data.txt >> awk.txt; head awk.txt
+  858  sort -n awk.txt > sorted.txt; uniq -c sorted.txt > uniq.txt; sort -n uniq.txt > results.txt; head results.txt
+  859  sort -nr uniq.txt > results.txt; head results.txt
+  860  head -20 results.txt > ws7.txt
+  861  head ws7.txt
+  862  ls
+  863  ls *.txt
+  864  mv *.txt /mnt/scratch/patricio23fa/cs131/ws7/
+  865  cd
+  866  cd cs131; ls
+  867  mkdir ws7
+  868  cd
+  869  cd taxidata
+  870  mv *.txt /mnt/scratch/patricio23fa/cs131/ws7/
+  871  cd
+  872  cd cs131; cd ws7; ls
+  873  tail -100 history > cmnd.log
+  874  history > cmd.log; tail -100 cmd.log > cmnd.log
+  875  rm cmd.log
+  876  vi cmnd.log
+  877  cd ..
+  878  git status
+  879  git add ws7
+  880  git add /ws7/results.txt; git add /ws7/ws7.txt
+  881  git add ws7/results.txt; git add ws7/ws7.txt
+  882  git commit -m "Upload ws7"
+  883  git push
+  884  exit
+  885  man read
+  886  read X Y Z
+  887  echo $X
+  888  echo $Y
+  889  echo $Z
+  890  man expr
+  891  man shift
+  892  man test
+  893  i1=1
+  894  i2=2
+  895  test $i1 -eq $i2
+  896  echo $?
+  897  test $i1 == $i2
+  898  echo $?
+  899  exit
+  900  ls
+  901  cd taxidata; ls
+  902  head 2019-08.csv
+  903  touch 2019-08-pus.txt
+  904  awk -F , '{ print $8 }' 2019-08.txt >> 2019-08-pus.txt; cat 2019-08-pus.txt
+  905  awk -F , '{ print $8 }' 2019-08.csv >> 2019-08-pus.txt; cat 2019-08-pus.txt
+  906  head 2019-08.csv
+  907  sort -n 2019-08-pus.txt > 2019-08-pus.txt; uniq -c 2019-08.txt > 2019-08.txt; head 2019-08-pus.txt
+  908  head 2019-08-pus.txt
+  909  awk -F , '{ print $8 }' 2019-08.csv >> 2019-08-pus.txt; cat 2019-08-pus.txt
+  910  awk -F , '{ print $8 }' 2019-08.csv >> 2019-08-pus.txt
+  911  sort -n 2019-08-pus.txt; uniq -c; sort -n; cat
+  912  ls
+  913  rm 2019-08-pus.txt
+  914  ls
+  915  clear; ls
+  916  touch script.sh
+  917  vi script
+  918  touch pus.txt; awk -F , '{ print $8 $17 }' 2019-08.csv >> pus.txt
+  919  head pus.txt
+  920  sed -i 'd' pus.txt
+  921  cat pus.txt
+  922  touch pus.txt; awk -F , '{ print $8,$17 }' 2019-08.csv >> pus.txt
+  923  head pus.txt
+  924  vi script
+  925  sort -n pus.txt > pussorted.txt
+  926  head pussorted.txt
+  927  rm pussorted.txt; awk '{ print $2, $1 }' pus.txt > pus2.txt | sort -n > pussorted.txt; head
+  928  rm pussorted.txt; awk '{ print $2, $1 }' pus.txt > pus2.txt | sort -n > pussorted.txt | head
+  929  head pussorted.txt
+  930  rm pussorted.txt; awk '{ print $2, $1 }' pus.txt > pus2.txt; sort -n pus2.txt > pussorted.txt; head pussorted.txt
+  931  tail pussorted.txt
+  932  ls
+  933  rm *.txt
+  934  ls
+  935  clear; ls
+  936  awk -F , '{ print $8, $17 }' 2019-08.csv > pus.txt
+  937  head pus.txt
+  938  rm pus.txt; clear; head 2019-08.csv
+  939  awk -F , '{ print $8, $17 }' 2019-08.csv > pus.txt; head pus.txt
+  940  grep ^[0-9].0 pus.txt > pus.txt
+  941  grep ^[0-9].0 pus.txt > pus2.txt
+  942  head pus2.txt
+  943  rm pus2.txt
+  944  sed '1d' pus.txt; head pus.txt
+  945  head pus.txt
+  946  ls
+  947  rm script.sh; rm script
+  948  awk -F , '{ print $8 }' 2019-08.csv > pus.txt; wc -l pus.txt
+  949  sort -n pus.txt | uniq -c | sort -n > pus2.txt
+  950  head pus2.txt
+  951  sort -n pus.txt | uniq -c | sort -nr > pus2.txt
+  952  head pus2.txt
+  953  wc -l pus2.txt
+  954  touch script.sh; vi script.sh
+  955  ls
+  956  rm *.txt
+  957  rm script.sh
+  958  ls
+  959  cd
+  960  cd cs131
+  961  ls
+  962  mkdir a3; mkdir a4
+  963  ls
+  964  exit
+  965  vi movies.csv 
+  966  ls
+  967  vi movies.csv
+  968  exit
+  969  ls
+  970  vi movies.csv
+  971  cd
+  972  cd cs131; cd a4
+  973  vi README.md 
+  974  touch cleanup.sh
+  975  vi cleanup.sh
+  976  cd ..
+  977  git status
+  978  git add a4
+  979  git commit -m "Upload a4"
+  980  git push
+  981  exit
+  982  cd ..; ls
+  983  cd datasets
+  984  ls
+  985  vi movie-data.zip 
+  986  cp movie-data.zip /mnt/scratch/patricio23fa/
+  987  cd
+  988  ls
+  989  cd movie-data.ziip
+  990  man unzip
+  991  unzip movie-data.zip 
+  992  ls
+  993  rm movie-data.zip 
+  994  cd cs131
+  995  ls
+  996  cd a4
+  997  touch README.md
+  998  cd
+  999  ls
+ 1000  vi movies.csv
+ 1001  ls
+ 1002  cd cs131; ls
+ 1003  cd
+ 1004  cd taxidata
+ 1005  ls
+ 1006  touch script.sh
+ 1007  vi script.sh
+ 1008  vi script
+ 1009  awk -F , '{ print $8, $17 }' 2019-08.csv > pu-amount.txt
+ 1010  head pu-amount.txt
+ 1011  vi script
+ 1012  awk -f script pu-amount.txt
+ 1013  vi script
+ 1014  awk -f script pu-amount.txt
+ 1015  vi script
+ 1016  awk -f script pu-amount.txt
+ 1017  vi script
+ 1018  touch a3.txt
+ 1019  vi script
+ 1020  awk -f script pu-amount.txt
+ 1021  vi script
+ 1022  cp /dev/null a3.txt
+ 1023  awk -f script pu-amount.txt >> a3.txt
+ 1024  head a3.txt
+ 1025  cp /dev/null a3.txt
+ 1026  vi script
+ 1027  awk -f script pu-amount.txt
+ 1028  vi script
+ 1029  awk -f script pu-amount.txt
+ 1030  vi script
+ 1031  awk -f script pu-amount.txt
+ 1032  vi script
+ 1033  awk -f script pu-amount.txt
+ 1034  clear
+ 1035  cat pu-amount.txt 
+ 1036  vi script
+ 1037  awk -f script pu-amount.txt >> a3.txt
+ 1038  head a3.txt
+ 1039  vi script
+ 1040  cp /dev/null a3.txt
+ 1041  awk -f script pu-amount.txt
+ 1042  vi script
+ 1043  awk -f script pu-amount.txt
+ 1044  vi script
+ 1045  awk -f script pu-amount.txt
+ 1046  vi script
+ 1047  awk -f script pu-amount.txt
+ 1048  vi script
+ 1049  cp /dev/null a3.txt
+ 1050  awk -f script pu-amount.txt >> a3.txt
+ 1051  head a3.txt
+ 1052  cp /dev/null a3.txt
+ 1053  vi script
+ 1054  awk -f script pu-amount.txt >> a3.txt
+ 1055  head a3.txt
+ 1056  sort -nk 2 a3.txt > a3t1.txt
+ 1057  head a3t1.txt 
+ 1058  sort -nrk 2 a3.txt > a3t1.txt
+ 1059  head a3t1.txt 
+ 1060  mv a3.txt pu-amount-average.txt
+ 1061  head a3.txt
+ 1062  head pu-amount-average.txt
+ 1063  sort -nrk 2 pu-amount-average.txt > a3.txt
+ 1064  head a3.txt
+ 1065  head 2019-08.csv
+ 1066  cat script
+ 1067  awk -F , '{ location[$8, $9]+=$17; counter[$8, $9]++} END { for (i in location) { print i, location[i]/counter[i]}}' 2019-08.csv
+ 1068  touch a3t2.txt
+ 1069  awk -F , '{ location[$8, $9]+=$17; counter[$8, $9]++} END { for (i in location) { print i, location[i]/counter[i]}}' 2019-08.csv >> a3t2.txt
+ 1070  head a3t2.txt
+ 1071  ech "" >> a3.txt
+ 1072  echo "" >> a3.txt
+ 1073  vi a3.txt
+ 1074  wc -l a3.txt
+ 1075  vi a3.txt
+ 1076  sort -nrk 2 a3t2.txt >> a3.txt
+ 1077  vi a3.txt
+ 1078  ls
+ 1079  cp /dev/null a3.txt
+ 1080  echo "Task 1:" > a3.txt
+ 1081  head pu-amount-average.txt >> a3.txt; echo "" >> a3.txt; echo "Task 2:" >> a3.txt; sort -nrk 2 a3t2.txt | head >> a3.txt
+ 1082  vi a3.txt
+ 1083  cp /dev/null a3.txt
+ 1084  sort -nrk 2 pu-amount-average.txt | head >> a3.txt; echo "" >> a3.txt; echo "Task 2:" >> a3.txt; sort -nrk 2 a3t2.txt | head >> a3.txt
+ 1085  vi a3.txt
+ 1086  ls
+ 1087  head a3t1.txt
+ 1088  rm pu-amount*.txt
+ 1089  ls
+ 1090  rm script.sh
+ 1091  ls
+ 1092  man gnuplot
+ 1093  mv script a3t1script
+ 1094  vi a3t3script
+ 1095  head 2019-08.csv
+ 1096  ls
+ 1097  touch a3t3.txt
+ 1098  awk -F , '{ passengers[$4]+=$14; counter[$4]++ } END { for (i in passengers) { print i, passengers[i]/counter[i] }}' 2019-08.csv >> a3t3.txt
+ 1099  head a3t3.txt
+ 1100  sort -nrk 2 a3t3.txt > a3t3-new.txt
+ 1101  head a3t3-new.txt 
+ 1102  mv a3t3-new.txt a3t3.txt
+ 1103  head a3t3.txt
+ 1104  vi a3t3.txt
+ 1105  vi a3t3script
+ 1106  load 'a3t3script'
+ 1107  man load
+ 1108  plot a3t3.txt
+ 1109  gnuplot
+ 1110  cat a3t3script
+ 1111  gnuplot
+ 1112  cat a3t3.txt
+ 1113  sort -nk 1 a3t3.txt > a3t3-new.txt
+ 1114  head a3t3-new.txt 
+ 1115  mv a3t3-new.txt a3t3.txt
+ 1116  vi a3t3script
+ 1117  gnuplot
+ 1118  vi a3t3script
+ 1119  vi a3t3script2
+ 1120  gnuplot
+ 1121  ls
+ 1122  rm a3t3script
+ 1123  mv a3t3script2 a3t3script
+ 1124  ls
+ 1125  head 2019-08.csv
+ 1126  awk -F , '{ travel[$5]+=$14; counter[$5]++ } END { for (i in travel) { print i, travel[i]/counter[i] }} 2019-08.csv > a3t4.txt
+
+ 1127  rm a3t4.txt
+ 1128  touch a3t4.txt
+ 1129  awk -F , '{ travel[$5]+=$14; counter[$5]++ } END { for (i in travel) { print i, travel[i]/counter[i] }} 2019-08.csv >> a3t4.txt
+
+ 1130  awk -F , '{ travel[$5]+=$14; counter[$5]++ } END { for (i in travel) { print i, travel[i]/counter[i] }}' 2019-08.csv >> a3t4.txt
+ 1131  head a3t4.txt
+ 1132  vi a3t4.txt
+ 1133  sort -nrk 1 a3t4.txt
+ 1134  sort -nk 1 a3t4.txt
+ 1135  sort -nk 1 a3t4.txt > a3t4-new.txt
+ 1136  mv a3t4-new.txt a3t4.txt
+ 1137  ls
+ 1138  cp a3t3script a3t4script
+ 1139  vi a3t4script
+ 1140  vi a3t4.txt
+ 1141  tail -n 3 a3t4.txt
+ 1142  vi a3t4.txt
+ 1143  vi a3t4script
+ 1144  vi a3t3 script
+ 1145  ls
+ 1146  vi a3t3script
+ 1147  vi a3t4script
+ 1148  rm a3t3.svg
+ 1149  gnuplot
+ 1150  ls
+ 1151  cat a3t3.svg
+ 1152  cat a3t4.svg
+ 1153  clear
+ 1154  head a3t3.txt
+ 1155  cat a3t3.svg
+ 1156  vi a3t3script
+ 1157  vi a3t4script
+ 1158  vi a3t3script
+ 1159  gnuplot
+ 1160  cat a3t3.svg
+ 1161  gnuplot
+ 1162  cat a3t4.svg
+ 1163  head a3t4.txt
+ 1164  vi a3t3script
+ 1165  vi a3t4script
+ 1166  rm a3t3.svg; rm a3t4.svg
+ 1167  gnuplot
+ 1168  cat a3t3.svg
+ 1169  ls
+ 1170  mv *.txt /mnt/scratch/patricio23fa/cs131/a3/
+ 1171  mv *script /mnt/scratch/patricio23fa/cs131/a3/
+ 1172  ls
+ 1173  mv *.svg /mnt/scratch/patricio23fa/cs131/a3/
+ 1174  ls
+ 1175  cd
+ 1176  cd cs131; cd a3
+ 1177  ls
+ 1178  history > c.log

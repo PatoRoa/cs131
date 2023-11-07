@@ -1,0 +1,11 @@
+set xlabel "Number of Passengers"
+set ylabel "Average Tip Amount"
+set xrange [0:9]
+set yrange [0:10]
+
+set terminal svg
+set output "a3t3.svg"
+
+#set term dumb
+
+plot 'a3t3.txt' with boxes

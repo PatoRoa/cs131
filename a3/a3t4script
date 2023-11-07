@@ -1,0 +1,11 @@
+set xlabel "Trip Distance"
+set ylabel "Average Tip Amount"
+set xrange [0:650]
+set yrange [0:10]
+
+set terminal svg
+set output "a3t4.svg"
+
+#set term dumb
+
+plot 'a3t3.txt' with points

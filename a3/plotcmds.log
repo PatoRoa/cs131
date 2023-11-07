@@ -1,0 +1,26 @@
+Task 3:
+plot a3t3.txt
+plot 'a3t3.txt'
+clear
+set title "Correlation between number of passengers and average tip amount"
+set yrange [0:10]
+set xrange [0:10]
+set xlabel "number of passengers"
+set ylabel "average tip amount"
+set terminal svg
+set out a3t3.svg
+set out 'a3t3.svg'
+set boxwidth 0.5
+set style fill solid
+plot "a3t3.txt" using 1:3:xtic(2) with boxes
+load a3t3script
+load a3t3script2
+load 'a3t3script2'
+load 'a3t3script'
+
+Task 4: 
+load 'a3t4script'
+load "a3t3script"
+load "a3t4script"
+load "a3t3script"; load "a3t4script"
+exit
