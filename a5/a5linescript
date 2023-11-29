@@ -1,0 +1,15 @@
+set title "Average Yearly Price of Lego Jurassic World Sets"
+set xlabel "Year"
+set ylabel "Average Price"
+
+set xrange [2017:2021]
+set yrange [50:150]
+set xtics (2017,2018,2019,2020,2021)
+set ytics (50, 100, 150)
+
+#set terminal dumb
+set terminal svg
+
+set output "a5lines.svg"
+
+plot 'jwavgyearlyprice.txt' using 2:1 with lines
