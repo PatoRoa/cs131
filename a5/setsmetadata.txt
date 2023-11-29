@@ -1,0 +1,103 @@
+Number of sets
+2052 setsclean.csv
+
+Year Range
+2005-2023
+
+Top 5 Years with Most Sets Published
+197 2019
+176 2021
+176 2020
+170 2018
+158 2015
+
+Top 5 Most Common Set Themes
+424 City
+329 Star Wars
+186 Ninjago
+178 Friends
+76 Disney
+
+
+The cheapest LEGO set is the Olivia's Remote Control Boat set, priced at $2 and released in 2018
+The most expensive LEGO set is the Market Street set, priced at $3099.99 and released in 2007
+
+With a total of 6989 minifigures across 2051 sets, there is an average of 3.40761 minifigures per set.
+
+
+Total minifigures released per year
+2005 26
+2006 51
+2007 81
+2008 160
+2009 212
+2010 224
+2011 334
+2012 374
+2013 399
+2014 461
+2015 500
+2016 472
+2017 483
+2018 597
+2019 690
+2020 605
+2021 555
+2022 622
+2023 143
+
+Average theme set price
+900.459 Advanced models
+366.633 Education
+294.596 Pirates of the Caribbean
+285.677 Creator Expert
+268.269 Castle
+261.061 The Lord of the Rings
+221.032 Indiana Jones
+180.656 Icons
+164.001 The Hobbit
+162.317 Racers
+147.659 Star Wars
+107.377 Collectable Minifigures
+104.826 Ideas
+98.2137 Factory
+90.8623 Toy Story
+89.5076 Teenage Mutant Ninja Turtles
+88.129 Minecraft
+87.0943 Jurassic World
+86.9382 Harry Potter
+85.2694 Space
+74.0969 Exo-Force
+73.2725 DC Comics Super Heroes
+70.99 Prince of Persia
+69.1648 Ninjago
+64.2475 Avatar
+63.4288 Speed Champions
+60.0512 City
+58.7409 Creator
+53.6524 Miscellaneous
+51.1324 Marvel Super Heroes
+49.6626 Cars
+49.4792 Super Mario
+47.4699 Nexo Knights
+45.9407 HERO Factory
+45.3866 Disney
+42.6091 Friends
+40.995 The LEGO Movie
+40.3648 Duplo
+38.7317 Games
+36.7445 Juniors
+31.9433 Promotional
+31.47 Unikitty
+29.8985 Legends of Chima
+27.2054 Monkie Kid
+26.6556 Pharaoh's Quest
+25.2868 Seasonal
+24.1569 Dimensions
+23.5 Minions: The Rise of Gru
+20.492 Hidden Side
+18.5792 Vidiyo
+18.392 The LEGO Batman Movie
+13.97 The LEGO Movie 2
+10 Classic
+2.5 Trolls World Tour

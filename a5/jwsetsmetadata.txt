@@ -1,0 +1,56 @@
+Year range of Lego Jurassic World sets
+2018-2020
+
+Quantity of Lego Jurassic World sets per Year
+7 2018
+5 2019
+4 2020
+
+Total prices of Lego Jurassic World sets per Year
+505.853 2018
+661.24 2019
+226.415 2020
+
+Average Jurassic World set Price per Year
+72.26471429 2018
+132.248 2019
+56.60375 2020
+
+Minifigures per Jurassic World set
+3 Gallimimus and Pteranodon Breakout
+2 Velociraptor: Biplane Rescue Mission
+3 Carnotaurus Gyrosphere Escape
+6 Jurassic Park: T. rex Rampage
+4 Triceratops Rampage
+2 Stygimoloch Breakout
+2 Pteranodon Chase
+4 T. rex vs Dino-Mech Battle
+4 Jurassic Park Velociraptor Chase 
+3 Dilophosaurus Outpost Attack
+5 Indominus rex vs. Ankylosaurus
+4 Baryonyx Face-Off: The Treasure Hunt
+6 Indoraptor Rampage at Lockwood Estate
+2 Dr. Wu's Lab: Baby Dinosaurs Breakout
+3 Dilophosaurus on the Loose
+3 Blue's Helicopter Pursuit
+
+Price of Jurassic World sets
+40.4955 Gallimimus and Pteranodon Breakout
+23.16 Velociraptor: Biplane Rescue Mission
+76.99 Carnotaurus Gyrosphere Escape
+350 Jurassic Park: T. rex Rampage
+59.95 Triceratops Rampage
+35 Stygimoloch Breakout
+21.2075 Pteranodon Chase
+159.99 T. rex vs Dino-Mech Battle
+57.47 Jurassic Park Velociraptor Chase 
+70 Dilophosaurus Outpost Attack
+137.79 Indominus rex vs. Ankylosaurus
+66.3 Baryonyx Face-Off: The Treasure Hunt
+185.235 Indoraptor Rampage at Lockwood Estate
+24.97 Dr. Wu's Lab: Baby Dinosaurs Breakout
+25 Dilophosaurus on the Loose
+59.95 Blue's Helicopter Pursuit
+
+Average price of a Jurassic World set
+87.0943

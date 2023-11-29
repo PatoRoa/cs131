@@ -1,0 +1,46 @@
+BEGIN {
+  setcount=0
+  totalprice=0
+}
+
+{
+  if ($4 == "Jurassic World") {
+    setcount+=1
+    totalprice+=$14
+  
+
+    yearlyset[$3]+=1
+    mfperset[$2]+=$11
+    setprice[$2]+=$14
+    yearlysetpricetotal[$3]+=$14
+  }
+}
+
+END {
+  print "Quantity of Lego Jurassic World sets per year"
+  for (i in yearlyset) {
+    print yearlyset[i], i
+  }
+  print ""
+
+  print "Total prices of Lego Jurassic World sets per year"
+  for (l in yearlysetpricetotal) {
+    print yearlysetpricetotal[l], l
+  }
+  print ""
+
+  print "Minifigures per Jurassic World set"
+  for (j in mfperset) {
+    print mfperset[j], j
+  }
+  print ""
+
+  print "Price of Jurassic World sets"
+  for (k in setprice) {
+    print setprice[k], k
+  }
+  print ""
+
+  print "Average price of a Jurassic World set"
+  print totalprice/setcount
+}

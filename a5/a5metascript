@@ -1,0 +1,54 @@
+BEGIN {
+  cheapestsetprice = 999
+  cheapestsetname = ""
+  cheapestsetyear = 0
+
+  expensivesetprice = 0
+  expensivesetname = ""
+  expensivesetyear = 0
+}
+
+{
+  yearlysets[$3]+=1
+  setspertheme[$4]+=1
+
+  setprice = $14
+  setname = $2
+  setyear = $3
+
+  if (cheapestsetprice > setprice) {
+    cheapestsetprice = setprice
+    cheapestsetname = setname
+    cheapestsetyear = setyear
+  }
+  else {
+    cheapestsetprice = cheapestsetprice
+    cheapestsetname = cheapestsetname
+    cheapestsetyear = cheapestsetyear
+  }
+
+  if (expensivesetprice < setprice) {
+    expensivesetprice = setprice
+    expensivesetname = setname
+    expensivesetyear = setyear
+  }
+  else {
+    expensivesetprice = expensivesetprice
+    expensivesetname = expensivesetname
+    expensivesetyear = expensivesetyear
+  }
+}
+
+END {
+  for (i in yearlysets) {
+    print yearlysets[i], i
+  }
+  
+  for (j in setspertheme) {
+    print setspertheme[j], j
+  }
+
+  print "The cheapest LEGO set is the " cheapestsetname " set, priced at $" cheapestsetprice " and released in " cheapestsetyear
+  print "The most expensive LEGO set is the " expensivesetname " set, priced at $" expensivesetprice " and released in " expensivesetyear
+
+}
